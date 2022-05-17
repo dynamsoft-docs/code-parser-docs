@@ -11,7 +11,7 @@ noTitleIndex: true
 
 Dynamsoft Code Parser (DCP) is an SDK designed to 
 
-With DLR, you can 
+With DCP, you can 
 
 ## Key Features
 
