@@ -48,9 +48,9 @@ jobs:
       - name: Build the site
         run: |
           cd /home/ubuntu
-          [ ! -d code-parser-docs-preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-preview
+          [ ! -d code-parser-docs-prev ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-prev
           [ ! -d DLRDocPreview ] && mkdir -p DLRDocPreview
-          cd code-parser-docs-preview && git pull && cd .. && cp -rfp ./code-parser-docs-preview/* ./DLRDocPreview/
+          cd code-parser-docs-prev && git pull && cd .. && cp -rfp ./code-parser-docs-prev/* ./DLRDocPreview/
           cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DLRDocPreview/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DLRDocPreview/_config.yml
