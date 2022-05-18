@@ -17,12 +17,19 @@ Based on JavaScript and WebAssembly, DCP can run in all major modern browsers on
 ## Usage Scenarios
 
 * Driver license
+    
     Cover countries include South Africa, USA and Canada.
+    
     All versions of the AAMVA Driver License/Identification specification used in the USA and in Canada supported.
+
 * Identification
+    
     Cover countries include USA and Canada.
+
 * International COVID-19 Vaccination Certificate
+    
     International certificate QR code (VDS-NC) in Australia supported.
+    
 
 
 ## How to start
