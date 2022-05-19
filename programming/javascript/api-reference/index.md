@@ -67,9 +67,9 @@ The APIs for this class include:
 
 
 
-## Initialize License
 
-### license
+
+## license
 
 Specify an online license or an offline license. Dynamsoft usually provides an online license. 
 
@@ -79,17 +79,14 @@ Specify an online license or an offline license. Dynamsoft usually provides an o
 static license: string
 ```
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 ```
 
-
-## Initialize Engine
-
-### engineResourcePath
+## engineResourcePath
 
 Specifies the path to find the engine(s). The property needs to be set before [loadWasm](#loadwasm). If not specified, the library will try to find the engine in the same location as the main JavaScript file (dbr.js).
 
@@ -97,14 +94,14 @@ Specifies the path to find the engine(s). The property needs to be set before [l
 static engineResourcePath: string
 ```
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.1/dist/";
 await Dynamsoft.DCP.CodeParser.loadWasm();
 ```
 
-### loadWasm
+## loadWasm
 
 Downloads and compiles the engine to get it loaded/ready for a CodeParser instance to be created. You can call this API to silently set the operating environment of the library as soon as the page is loaded, avoiding unnecessary waiting time when using the library later.
 
@@ -114,7 +111,7 @@ If this API is not called beforehand, it will be called automatically when creat
 static loadWasm(): Promise<void>
 ```
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 window.addEventListener('DOMContentLoaded', (event) => {
@@ -122,10 +119,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 });
 ```
 
-
-## Create and Destroy
-
-### createInstance
+## createInstance
 
 Creates a `CodeParser` instance.
 
@@ -133,17 +127,17 @@ Creates a `CodeParser` instance.
 static createInstance(): Promise<BarcodeReader>
 ```
 
-**Return Value**
+### Return Value
 
 A promise resolving to the created `CodeParser` object.
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 let reader = await Dynamsoft.DCP.CodeParser.createInstance();
 ```
 
-### destroyContext
+## destroyContext
 
 Destroys the `CodeParser` instance in WASM. If your page needs to create new instances from time to time, don't forget to destroy unused old instances.
 
@@ -151,7 +145,7 @@ Destroys the `CodeParser` instance in WASM. If your page needs to create new ins
 destroyContext(): void
 ```
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
@@ -159,8 +153,7 @@ let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 parser.destroyContext();
 ```
 
-
-## Set Code Format
+## setCodeFormat
 
 Sets the code format that needs parsing. See EnumCodeFormat to check if it has the code format you are looking for.
 
@@ -168,23 +161,22 @@ Sets the code format that needs parsing. See EnumCodeFormat to check if it has t
 setCodeFormat(format: EnumCodeFormat): Promise<void> 
 ```
 
-**Parameters**
+### Parameters
 
 `format`: specifies the code’s format represented by EnumCodeFormat.
 
-**Return Value**
+### Return Value
 
 A promise that resolves when the operation succeeds.
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 await parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_DL_AAMVA_ANSI);
 // ... parse ...
 ```
 
-
-## Parse Code Data
+## parseData
 
 Parses the code into readable info.
 
@@ -192,20 +184,19 @@ Parses the code into readable info.
 parseData(source: number[] | Uint8Array | string): Promise<ParseResult> 
 ```
 
-**Parameters**
+### Parameters
 
 `source`: specifies the code data represented by a numder[], Uint8Array or string.
 
-**Return Value**
+### Return Value
 
 A promise resolving to a `ParseResult` object which contains the parsing result.
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 await parser.parseData(YOUR-CODE-THAT-NEEDS-PARSING);
 ```
-
 
 ### See Also
 
@@ -213,9 +204,7 @@ await parser.parseData(YOUR-CODE-THAT-NEEDS-PARSING);
 * [ParseResult](./interface/ParseResult.md)
 
 
-## Set Encryption Key
-
-### setCryptoPublicKey
+## setCryptoPublicKey
 
 Sets the public key if your parsing process needs one.
 
@@ -223,15 +212,15 @@ Sets the public key if your parsing process needs one.
 setCryptoPublicKey(key: string): Promise<void>
 ```
 
-**Parameters**
+### Parameters
 
 `key`: specifies the public key represented by a string.
 
-**Return Value**
+### Return Value
 
 A promise that resolves when the operation succeeds.
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
@@ -239,7 +228,7 @@ parser.setCryptoPublicKey(YOUR-PUBLIC-KEY);
 // … parse …
 ```
 
-### setCertificate
+## setCertificate
 
 Sets the certificate if your parsing process needs one.
 
@@ -247,19 +236,23 @@ Sets the certificate if your parsing process needs one.
 setCertificate(value: Uint8Array | ArrayBuffer | string): Promise<void>
 ```
 
-**Parameters**
+### Parameters
 
 `value`: specifies the certificate represented by a Uint8Array, ArrayBuffer or string.
 
-**Return Value**
+### Return Value
 
 A promise that resolves when the operation succeeds.
 
-**Code Snippet**
+### Code Snippet
 
 ```js
 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 parser.setCertificate(YOUR-CERTIFICATE);
 // … parse …
 ```
+
+### See Also
+
+* [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
 

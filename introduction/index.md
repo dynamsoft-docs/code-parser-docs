@@ -25,34 +25,32 @@ For the initial release, DCP is only available for web applications as "DCP Java
 
   International certificate QR code (VDS-NC) in Australia supported.
 
-## How to start
+## How to use
 
-There are mainly five steps to use a CodeParser:
+There are mainly four steps to use a CodeParser:
+
 1.	Initialize license
 
-    Before start, it’s essential to set a license which gives you permission to use DCP. You can acquire a trial license via the customer portal. If you purchased a full license, then please use that.
+    Before start, it’s essential to set a license which gives you permission to use DCP. You can acquire a trial license via the [customer portal](https://www.dynamsoft.com/customer/license/trialLicense?ver=1.0.0&utm_source=guide&product=dcp&package=js). If you purchased a full license, then please use that.
 
-2.	Initialize engine
+2.	Create Code Parser instance
 
-    In this step, DCP provides two methods, one to define the path where the WASM resources (the engine files) will be loading from, another to load engine. You can call them manually if you want to save some time before creating an instance.
+    Then you can create a Code Parser instance for later use. Since DCP JavaScript Edition is based on JavaScript and WebAssembly, it's designed to load and compile the WASM resources (the engine files) automaticly before creating a instance. The methods to set the engine path and to load WASM are also provided.
 
-3.	Create Code Parser instance
+3.	Set code format
 
-    Create a Code Parser instance for later use. 
+    When the instance is set up, you should set the code format (see [EnumCodeFormat](../programming/javascript/api-reference/enum/EnumCodeFormat.md)) that you want to get information from.
 
-4.	Set code format
+4.	Parse code
 
-    When the instance is set up, you should set the code format (see EnumCodeFormat) that you want to get information from.
-
-5.	Parse code
-
-    The `parseData()` method can then be called to get results in a specific format (see EnumResultInfoType). 
-
-  Note:
-    
-    If your input code needs a public key or certificate to help parsing, please set it up beforehand. 
-    For example, setting a public key before parsing from South Africa driver license is required, while a certificate is usually needed when parsing from a Vaccination Certificate. 
+    The `parseData()` method can then be called to get results in a specific format (see [EnumResultInfoType](../programming/javascript/api-reference/enum/EnumResultInfoType.md)). 
 
 
-For more information about how to use DCP, read more in the user guide.
+Note:
+
+If your input code needs a public key or certificate to help parsing, please set it up beforehand. 
+For example, setting a public key before parsing South Africa driver license is required, while a certificate is usually needed when parsing a COVID-19 Vaccination Certificate. 
+
+
+For more information about how to use DCP, read more in the [user guide](../programming/javascript/user-guide.md).
 
