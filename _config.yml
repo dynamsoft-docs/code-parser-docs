@@ -53,7 +53,7 @@ license-activation: /code-parser/docs/license-activation/
 
 useVersionTree: true
 
-baseurl: "/code-parser"
+baseurl: "/code-parser/docs"
 plugins:
   - jemoji
 
