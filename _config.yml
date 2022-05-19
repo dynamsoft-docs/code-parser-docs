@@ -1,59 +1,59 @@
 repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs/blob/main
 repository: Dynamsoft/code-parser-docs
-docFullPath: https://www.dynamsoft.com/code-parser
-firstLevelUrl: /code-parser/
-docHomePage: /code-parser/introduction/
+docFullPath: https://www.dynamsoft.com/code-parser/docs/
+firstLevelUrl: /code-parser/docs/
+docHomePage: /code-parser/docs/introduction/
 
-introduction: /code-parser/introduction/
-parameters: /code-parser/parameters/
-enumerations: /code-parser/parameters/enum/
-parameters-reference: /code-parser/parameters/reference/
+introduction: /code-parser/docs/introduction/
+parameters: /code-parser/docs/parameters/
+enumerations: /code-parser/docs/parameters/enum/
+parameters-reference: /code-parser/docs/parameters/reference/
 
-programming: /code-parser/programming/
+programming: /code-parser/docs/programming/
 
-c-cplusplus: /code-parser/programming/c-cplusplus/
-c-cplusplus-api-reference: /code-parser/programming/c-cplusplus/api-reference/
+c-cplusplus: /code-parser/docs/programming/c-cplusplus/
+c-cplusplus-api-reference: /code-parser/docs/programming/c-cplusplus/api-reference/
 
-c-functions: /code-parser/programming/c-cplusplus/api-reference/c-functions/
-cpp-methods: /code-parser/programming/c-cplusplus/api-reference/c-code-parser-class/
-c-cplusplus-structs: /code-parser/programming/c-cplusplus/api-reference/structs/
+c-functions: /code-parser/docs/programming/c-cplusplus/api-reference/c-functions/
+cpp-methods: /code-parser/docs/programming/c-cplusplus/api-reference/c-code-parser-class/
+c-cplusplus-structs: /code-parser/docs/programming/c-cplusplus/api-reference/structs/
 
-c-cplusplus-release-notes: /code-parser/programming/c-cplusplus/release-notes/
+c-cplusplus-release-notes: /code-parser/docs/programming/c-cplusplus/release-notes/
 
-android: /code-parser/programming/android/
-android-api: /code-parser/programming/android/api-reference/
-android-release-notes: /code-parser/programming/android/release-notes/
+android: /code-parser/docs/programming/android/
+android-api: /code-parser/docs/programming/android/api-reference/
+android-release-notes: /code-parser/docs/programming/android/release-notes/
 
-dotnet: /code-parser/programming/dotnet/
-dotnet_api: /code-parser/programming/dotnet/api-reference/
-dotnet_release_notes: /code-parser/programming/dotnet/release-notes/
+dotnet: /code-parser/docs/programming/dotnet/
+dotnet_api: /code-parser/docs/programming/dotnet/api-reference/
+dotnet_release_notes: /code-parser/docs/programming/dotnet/release-notes/
 
-objectivec-swift: /code-parser/programming/objectivec-swift/
-objectivec-swift-api: /code-parser/programming/objectivec-swift/api-reference/
-objectivec-swift-release-notes: /code-parser/programming/objectivec-swift/release-notes/
+objectivec-swift: /code-parser/docs/programming/objectivec-swift/
+objectivec-swift-api: /code-parser/docs/programming/objectivec-swift/api-reference/
+objectivec-swift-release-notes: /code-parser/docs/programming/objectivec-swift/release-notes/
 
-java: /code-parser/programming/java/
-java-api: /code-parser/programming/java/api-reference/
-java-release-notes: /code-parser/programming/java/release-notes/
+java: /code-parser/docs/programming/java/
+java-api: /code-parser/docs/programming/java/api-reference/
+java-release-notes: /code-parser/docs/programming/java/release-notes/
 
-javascript: /code-parser/programming/javascript/
-javascript-api: /code-parser/programming/javascript/api-reference/
-javascript-release-notes: /code-parser/programming/javascript/release-notes/
+javascript: /code-parser/docs/programming/javascript/
+javascript-api: /code-parser/docs/programming/javascript/api-reference/
+javascript-release-notes: /code-parser/docs/programming/javascript/release-notes/
 
-assets: /code-parser/assets/
-edit_icon: /code-parser/assets/img-icon/edit-icon.png
-smile_icon: /code-parser/assets/img-icon/icon-smile.png
-sad_icon: /code-parser/assets/img-icon/icon-sad.png
-dbr_icon: /code-parser/assets/img-icon/icon-dbr.svg
-dwt_icon: /code-parser/assets/img-icon/icon-dwt.svg
-dnt_icon: /code-parser/assets/img-icon/icon-dnt.svg
+assets: /code-parser/docs/assets/
+edit_icon: /code-parser/docs/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs/assets/img-icon/icon-sad.png
+dbr_icon: /code-parser/docs/assets/img-icon/icon-dbr.svg
+dwt_icon: /code-parser/docs/assets/img-icon/icon-dwt.svg
+dnt_icon: /code-parser/docs/assets/img-icon/icon-dnt.svg
 
-release-notes: /code-parser/release-notes/
-license-activation: /code-parser/license-activation/
+release-notes: /code-parser/docs/release-notes/
+license-activation: /code-parser/docs/license-activation/
 
 useVersionTree: true
 
-baseurl: "/code-parser"
+baseurl: "/code-parser/docs"
 plugins:
   - jemoji
 

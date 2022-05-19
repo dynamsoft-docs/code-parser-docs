@@ -7,7 +7,10 @@ needAutoGenerateSidebar: true
 ---
 
 # Dynamsoft Code Parser Documentation
+
 * [Introduction]({{ site.introduction }})
 
 * [Programming]({{ site.programming }})
-   - [JavaScript]({{ site.javascript }})
+  * [JavaScript]({{ site.javascript }})
+
+* [Release Notes]({{ site.release-notes }})
