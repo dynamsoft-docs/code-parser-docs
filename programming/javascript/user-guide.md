@@ -38,12 +38,8 @@ In this guide, you will learn step by step on how to integrate this library into
 
 Let’s start with the "Hello World" example of the library which demonstrates how to use the minimum code to enable a web page to parse codes into readable info.
 
-* Basic Requirements
-  * Internet connection
-  * [A supported browser](#system-requirements)
 
 The complete code of the "Hello World" example is shown below:
-
 
 ```html
 <!DOCTYPE html>
