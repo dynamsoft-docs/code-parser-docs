@@ -30,7 +30,7 @@ jobs:
           cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DLRDoc/
           cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DLRDoc/
           cd DLRDoc && bundle exec jekyll build
-          python3 /home/ubuntu/ftp.py /home/ubuntu/DLRDoc/_site/ ./www.dynamsoft.com/code-parser/ prod
+          python3 /home/ubuntu/ftp.py /home/ubuntu/DLRDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
 
   Build-Preview:
     if: ${{ github.ref == 'refs/heads/preview' }}
@@ -60,4 +60,4 @@ jobs:
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
           local-dir: /home/ubuntu/DLRDocPreview/_site/
-          server-dir: /www.dynamsoft.com/code-parser/
+          server-dir: /www.dynamsoft.com/code-parser/docs/
