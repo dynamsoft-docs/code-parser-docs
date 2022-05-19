@@ -24,13 +24,13 @@ jobs:
       - name: Build and Upload to Prod Env
         run: |
           cd /home/ubuntu
-          [ -d DLRDoc ] && rm -rf DLRDoc
-          [ ! -d DLRDoc ] && mkdir -p DLRDoc
+          [ -d DCPDoc ] && rm -rf DCPDoc
+          [ ! -d DCPDoc ] && mkdir -p DCPDoc
           [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git
-          cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DLRDoc/
-          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DLRDoc/
-          cd DLRDoc && bundle exec jekyll build
-          python3 /home/ubuntu/ftp.py /home/ubuntu/DLRDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
+          cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
+          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDoc/
+          cd DCPDoc && bundle exec jekyll build
+          python3 /home/ubuntu/ftp.py /home/ubuntu/DCPDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
 
   Build-Preview:
     if: ${{ github.ref == 'refs/heads/preview' }}
@@ -44,14 +44,14 @@ jobs:
       - name: Build the site
         run: |
           cd /home/ubuntu
-          [ -d DLRDocPreview ] && rm -rf DLRDocPreview
-          [ ! -d DLRDocPreview ] && mkdir -p DLRDocPreview
+          [ -d DCPDocPreview ] && rm -rf DCPDocPreview
+          [ ! -d DCPDocPreview ] && mkdir -p DCPDocPreview
           [ ! -d code-parser-docs-preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-preview
-          cd code-parser-docs-preview && git pull && cd .. && cp -rfp ./code-parser-docs-preview/* ./DLRDocPreview/
-          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DLRDocPreview/
+          cd code-parser-docs-preview && git pull && cd .. && cp -rfp ./code-parser-docs-preview/* ./DCPDocPreview/
+          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDocPreview/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
-          -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DLRDocPreview/_config.yml
-          cd DLRDocPreview && bundle exec jekyll build
+          -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDocPreview/_config.yml
+          cd DCPDocPreview && bundle exec jekyll build
       - name: Sync files to Test Env
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
@@ -59,5 +59,5 @@ jobs:
           username: ${{ secrets.FTP_TEST_SITE_USER }}
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
-          local-dir: /home/ubuntu/DLRDocPreview/_site/
+          local-dir: /home/ubuntu/DCPDocPreview/_site/
           server-dir: /www.dynamsoft.com/code-parser/docs/
