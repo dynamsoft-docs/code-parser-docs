@@ -19,4 +19,4 @@ needGenerateH3Content: true
 
 ## Release Notes
 
-- [Version 2.x](release-notes/javascript-2.md)
+- [Version 1.x](release-notes/js-1.md)
