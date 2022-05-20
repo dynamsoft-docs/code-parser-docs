@@ -12,11 +12,19 @@ noTitleIndex: true
 
 ## 1.0.0 (05/xx/2022)
 
+First released: 05-xx-2022
+
 ### New
 
-
-* New API `setCodeFormat` to `CodeParser` to set what type of code you want to parse.
-
+* New property `license` to control license of DCP.
+* New property `engineResourcePath` to specify the path of DCP WASM engine.
+* New `loadWasm()` to `CodeParser` to load and compile the WASM.
+* New method `createInstance()` to `CodeParser` to create a CodeParser instance.
+* New method `destroyContext()` to `CodeParser` to destroy the CodeParser instance in WASM.
+* New method `setCodeFormat()` to `CodeParser` to set what type of code you want to parse.
+* New method `parseData()` to `CodeParser` to parse code.
+* New method `setCryptoPyblicKey()` to `CodeParser` to set a public key if code parsing needs.
+* New method `setCertificate()` to `CodeParser` to set a certificate if code parsing needs.
 
 
 | Versions | Available Editions |

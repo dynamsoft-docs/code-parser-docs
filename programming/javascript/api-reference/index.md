@@ -37,7 +37,7 @@ The APIs for this class include:
 | API Name | Description |
 |---|---|
 | [engineResourcePath](#engineresourcepath) | Specifies the path of WASM engine. |
-| [loadWasm()](#loadwasm) | Loads and compires the WASM. |
+| [loadWasm()](#loadwasm) | Loads and compiles the WASM. |
 
 ### Create and Destroy
 
