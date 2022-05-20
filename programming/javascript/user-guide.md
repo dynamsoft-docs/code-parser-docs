@@ -38,8 +38,11 @@ In this guide, you will learn step by step on how to integrate this library into
 
 Let’s start with the "Hello World" example of the library which demonstrates how to use the minimum code to enable a web page to parse codes into readable info.
 
-
 The complete code of the "Hello World" example is shown below:
+
+*Note:*
+
+Since the code that needs parsing is usually hard to understand and often comes from images, we choose an online image which contains a US driver license to demonstrate how to parse the code with the help of `BarcodeReader`. Please make sure your device is Internet-connected when open the following example in browser.
 
 ```html
 <!DOCTYPE html>
@@ -51,34 +54,44 @@ The complete code of the "Hello World" example is shown below:
     <script>
         /** LICENSE ALERT - README 
          * To use the library, you need to first specify a license key using the API "license" as shown below.
-        */
-        Dynamsoft.DBR.BarcodeReader.license = "f0073tgAAALmBpNnuj78KEox8RvJVXtJbhMFK0zNrK73WpdpaLg7thjQ+nUe5YOCdw771F1U9rBghCCJh/5EFsGpMImT9qxYA8O8nIg==";
-        Dynamsoft.DCP.CodeParser.license = "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=";
+         */
+        Dynamsoft.DBR.BarcodeReader.license =
+            "f0073tgAAALmBpNnuj78KEox8RvJVXtJbhMFK0zNrK73WpdpaLg7thjQ+nUe5YOCdw771F1U9rBghCCJh/5EFsGpMImT9qxYA8O8nIg==";
+        Dynamsoft.DCP.CodeParser.license =
+            "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=";
         /** 
          * You can visit https://www.dynamsoft.com/customer/license/trialLicense?utm_source=github&product=dbr&package=js to get your own trial license good for 30 days. 
          * Note that if you downloaded this sample from Dynamsoft while logged in, the above license key may already be your own 30-day trial license.
          * For more information, see https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=9.0.2&utm_source=github#specify-the-license or contact support@dynamsoft.com.
          * LICENSE ALERT - THE END 
-        */
+         */
 
-        let pReader = null;
-        let pParser = null;
-        // Initializes and uses the library
-        (async() => {
-        try {
-            let reader = await (pReader = pReader || Dynamsoft.DBR.BarcodeReader.createInstance());
-            let parser = await (pParser = pParser || Dynamsoft.DCP.CodeParser.createInstance());
-            parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_DL_AAMVA_ANSI);
-            let result = await reader.decodeUrl("https://pic1.zhimg.com/v2-8a34c05de1b63d093ad3e3b9b985b630_r.jpg");
-            info = await parser.parseData(result[0].barcodeBytes);
-            console.log(info);
-        } catch(ex) {
-            alert(ex);
-        }
+        (async () => {
+            try {
+                let reader = await Dynamsoft.DBR.BarcodeReader.createInstance();
+                let parser = await Dynamsoft.DCP.CodeParser.createInstance();
+
+                parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_DL_AAMVA_ANSI);
+
+                // decode the driver license with BarcodeReader
+                let results = await reader.decode(
+                    "https://pic1.zhimg.com/v2-8a34c05de1b63d093ad3e3b9b985b630_r.jpg");
+
+                var info = "";
+                for (let result of results) {
+                    // input code which is the decoding result in number[] format
+                    info = await parser.parseData(result.barcodeBytes);
+                    // pop up the readable info
+                    alert(JSON.stringify(info));
+                    // see the readable info in console
+                    console.log(info);
+                }
+            } catch (ex) {
+                alert(ex);
+            }
         })();
     </script>
 </body>
-
 </html>
 ```
 
