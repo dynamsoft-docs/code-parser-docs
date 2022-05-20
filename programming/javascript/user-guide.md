@@ -13,7 +13,7 @@ needGenerateH3Content: true
 
 # Dynamsoft Code Parser for Your Website
 
-[Dynamsoft Code Parser JavaScript Edition](https://www.dynamsoft.com/code-parser/sdk-javascript/) is equipped with industry-leading algorithms for exceptional speed, accuracy in code parsing. With its well-designed API, you can equip your web page with a code parser by just adding a few lines of code.
+Dynamsoft Code Parser JavaScript Edition is equipped with industry-leading algorithms for exceptional speed, accuracy in code parsing. With its well-designed API, you can equip your web page with a code parser by just adding a few lines of code.
 Once integrated, your users can open your website in a browser and parse codes to get readable information.
 
 In this guide, you will learn step by step on how to integrate this library into your website.
@@ -30,9 +30,9 @@ In this guide, you will learn step by step on how to integrate this library into
 **Popular Examples**
 
 * Hello World - [Guide](#hello-world---simplest-implementation) \| [Github](https://github.com/Dynamsoft/barcode-reader-javascript-samples/blob/v9.0.2/1.hello-world/1.hello-world.html) \| [Run](https://demo.dynamsoft.com/Samples/DBR/JS/1.hello-world/1.hello-world.html?ver=9.0.2&utm_source=guide)
-* Angular App - [Guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/samples-demos/helloworld-angular.html?ver=9.0.2&utm_source=guide) \| [Github](https://github.com/Dynamsoft/barcode-reader-javascript-samples/blob/v9.0.2/1.hello-world/3.read-video-angular) \| [Run](https://demo.dynamsoft.com/Samples/DBR/JS/1.hello-world/3.read-video-angular/dist/hello-world/?ver=9.0.2&utm_source=guide)
-* React App - [Guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/samples-demos/helloworld-reactjs.html?ver=9.0.2&utm_source=guide) \| [Github](https://github.com/Dynamsoft/barcode-reader-javascript-samples/blob/v9.0.2/1.hello-world/4.read-video-react) \| [Run](https://demo.dynamsoft.com/Samples/DBR/JS/1.hello-world/4.read-video-react/build/?ver=9.0.2&utm_source=guide)
-* Vue App - [Guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/samples-demos/helloworld-vuejsv3.html?ver=9.0.2&utm_source=guide) \| [Github](https://github.com/Dynamsoft/barcode-reader-javascript-samples/blob/v9.0.2/1.hello-world/6.read-video-vue3) \| [Run](https://demo.dynamsoft.com/Samples/DBR/JS/1.hello-world/6.read-video-vue3/dist/?ver=9.0.2&utm_source=guide)
+* Angular App - [Guide]() \| [Github]() \| [Run]()
+* React App - [Guide]() \| [Github]() \| [Run]()
+* Vue App - [Guide]() \| [Github]() \| [Run]()
 
 ## Hello World - Simplest Implementation
 
@@ -246,5 +246,5 @@ parser.setCertificate(value);     //value: Uint8Array | ArrayBuffer | string
 ## API Documentation
 
 You can check out the detailed documentation about the APIs of the library at
-[https://www.dynamsoft.com/code-parser/programming/javascript/api-reference/?ver=1.0.0](https://www.dynamsoft.com/code-parser/programming/javascript/api-reference/?ver=1.0.0).
+[https://officecn.dynamsoft.com:808/code-parser/docs/programming/javascript/api-reference/?ver=latest](https://officecn.dynamsoft.com:808/code-parser/docs/programming/javascript/api-reference/?ver=latest).
 
