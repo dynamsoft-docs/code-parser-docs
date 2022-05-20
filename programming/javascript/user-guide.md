@@ -93,19 +93,6 @@ The complete code of the "Hello World" example is shown below:
 * `parseData`: This method parses code which could be number[], Uint8Array and string.
 
 
-*Note*:
-
-If you open the web page as `file:///` or `http://` , the reader may not work correctly because the API `decodeUrl` usually requires HTTPS to access online images.
-
-To make sure your web application can access online images, please configure your web server to support HTTPS. The following links may help.
-
-1. NGINX: <a target="_blank" href="https://nginx.org/en/docs/http/configuring_https_servers.html" title="Configuring HTTPS servers">Configuring HTTPS servers</a>
-2. IIS: <a target="_blank" href="https://aboutssl.org/how-to-create-a-self-signed-certificate-in-iis/" title="Create a Self Signed Certificate in IIS">Create a Self Signed Certificate in IIS</a>
-3. Tomcat: <a target="_blank" href="https://dzone.com/articles/setting-ssl-tomcat-5-minutes" title="Setting Up SSL on Tomcat in 5 minutes">Setting Up SSL on Tomcat in 5 minutes</a>
-4. Node.js: <a target="_blank" href="https://nodejs.org/docs/v0.4.1/api/tls.html" title="npm tls">npm tls</a>
-
-If the test doesn't go as expected, you can [contact us](https://www.dynamsoft.com/company/contact/?ver=1.0.0&utm_source=guide).
-
 ## Building your own page
 
 ### Include the library
