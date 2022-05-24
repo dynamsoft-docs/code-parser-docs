@@ -16,6 +16,10 @@ breadcrumbText: ParseResult
 
   > The parsed result type.
 
+* basicPersonalInfo: *BasicPersonalInfo*
+
+  > The common basic personal info.
+
 * parsedInfo: *any*
 
-  > The parsed result.
+  > The parsed result apart from basicPersonalInfo.
