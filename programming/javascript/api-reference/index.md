@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - Main Page
+title: Dynamsoft Code Parser JavaScript API - v1.0.0 Entry Page
 description: This is the main page of Dynamsoft Code Parser JavaScript SDK API Reference.
 keywords: CodeParser, api reference, javascript, js
 needAutoGenerateSidebar: true
