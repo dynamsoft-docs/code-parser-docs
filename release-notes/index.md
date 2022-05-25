@@ -29,4 +29,4 @@ Dynamsoft Code Parser 1.0.0 version supports parsing code from driver license an
 
 | Versions | Available Editions |
 |---|---|
-| 1.0.0 | [JavaScript](../programming/javascript/release-notes/js-1.md) |
+| 1.0.0 | [JavaScript](https://www.dynamsoft.com/code-parser/docs/programming/javascript/release-notes/js-1.html?ver=latest) |

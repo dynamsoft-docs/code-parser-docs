@@ -246,5 +246,5 @@ parser.setCertificate(value);     //value: Uint8Array | ArrayBuffer | string
 ## API Documentation
 
 You can check out the detailed documentation about the APIs of the library at
-[https://officecn.dynamsoft.com:808/code-parser/docs/programming/javascript/api-reference/?ver=latest](https://officecn.dynamsoft.com:808/code-parser/docs/programming/javascript/api-reference/?ver=latest).
+[https://www.dynamsoft.com/code-parser/docs/programming/javascript/user-guide/?ver=latest](https://www.dynamsoft.com/code-parser/docs/programming/javascript/user-guide/?ver=latest).
 
