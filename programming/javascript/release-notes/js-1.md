@@ -12,7 +12,7 @@ noTitleIndex: true
 
 ## 1.0.0 (05/30/2022)
 
- > First released: 05-xx-2022
+ > First released: 05-30-2022
 
 ### New
 
