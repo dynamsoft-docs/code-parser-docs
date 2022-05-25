@@ -97,7 +97,7 @@ Since the code that needs parsing is usually hard to understand and often comes 
 
 #### About the code
 
-* `license`: This property specifies a license key. Note that the license "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=" used in this example is an online license and requires network connection to work. Read more on Specify the license.
+* `license`: This property specifies a license key. Note that the license "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=" used in this example is an online license and requires network connection to work. Read more on [Specify the license](#specify-the-license).
 
 * `createInstance()`: This method creates a CodeParser object.
 
@@ -160,7 +160,7 @@ or
 <script src="/node_modules/dynamsoft-javascript-codeparser/dist/dcp.js"></script>
 ```
 
-Read more on [how to host the library](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/advanced-usage.html?ver=9.0.2&utm_source=guide&product=dbr&package=js#hosting-the-library).
+Refer to [how to host the library](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/advanced-usage.html?ver=9.0.2&utm_source=guide&product=dbr&package=js#hosting-the-library).
 
 ### Configure the library
 
