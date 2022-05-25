@@ -46,7 +46,7 @@ breadcrumbText: BasicPersonalInfo
 
 * addressStreet_2: *string*
 
-* issuedCountry: *string*
+* issuingCountry: *string*
 
 * issuedYear: *number*
 

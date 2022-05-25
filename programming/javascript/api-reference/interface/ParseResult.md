@@ -20,6 +20,6 @@ breadcrumbText: ParseResult
 
   > The common basic personal info.
 
-* parsedInfo: *any*
+* resultInfo: *any*
 
   > The parsed result apart from basicPersonalInfo.
