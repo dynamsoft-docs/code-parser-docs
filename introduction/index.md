@@ -15,9 +15,9 @@ For the initial release, DCP is only available for web applications as "DCP Java
 
 ## Usage Scenarios
 
-* Driver license/Identification
+* Driver license
     
-    Cover countries include South Africa, USA and Canada.
+    Cover countries: USA, Canada, South Africa.
     
     All versions of the AAMVA Driver License/Identification specification used in the USA and in Canada supported.
 

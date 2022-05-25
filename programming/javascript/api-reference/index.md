@@ -30,14 +30,14 @@ The APIs for this class include:
 
 | API Name | Description |
 |---|---|
-| [license](#license) | Initializes license of DCP. |
+| [license](InitializeLicense.md) | Initializes license of DCP. |
 
 ### Initialize Engine
 
 | API Name | Description |
 |---|---|
-| [engineResourcePath](#engineresourcepath) | Specifies the path of WASM engine. |
-| [loadWasm()](#loadwasm) | Loads and compiles the WASM. |
+| [engineResourcePath](InitializeEngine.md) | Specifies the path of WASM engine. |
+| [loadWasm()](InitializeEngine.md) | Loads and compiles the WASM. |
 
 ### Create and Destroy
 
@@ -67,57 +67,6 @@ The APIs for this class include:
 
 
 
-
-
-## license
-
-Specify an online license or an offline license. Dynamsoft usually provides an online license. 
-
-`license` needs to be set before `createInstance()` or `loadWasm()`.
-
-```typescript
-static license: string
-```
-
-### Code Snippet
-
-```js
-Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
-let parser = await Dynamsoft.DCP.CodeParser.createInstance();
-```
-
-## engineResourcePath
-
-Specifies the path to find the engine(s). The property needs to be set before [loadWasm](#loadwasm). If not specified, the library will try to find the engine in the same location as the main JavaScript file (dbr.js).
-
-```typescript
-static engineResourcePath: string
-```
-
-### Code Snippet
-
-```js
-Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.1/dist/";
-await Dynamsoft.DCP.CodeParser.loadWasm();
-```
-
-## loadWasm
-
-Downloads and compiles the engine to get it loaded/ready for a CodeParser instance to be created. You can call this API to silently set the operating environment of the library as soon as the page is loaded, avoiding unnecessary waiting time when using the library later.
-
-If this API is not called beforehand, it will be called automatically when creating an instance of CodeParser.
-
-```typescript
-static loadWasm(): Promise<void>
-```
-
-### Code Snippet
-
-```js
-window.addEventListener('DOMContentLoaded', (event) => {
-   Dynamsoft.DCP.CodeParser.loadWasm();
-});
-```
 
 ## createInstance
 
@@ -256,3 +205,23 @@ parser.setCertificate(YOUR-CERTIFICATE);
 
 * [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
 
+
+### Interfaces and Enums
+
+In order to make the code more predictable and readable, the library defines a series of supporting interfaces and enumerations:
+
+#### Interfaces
+
+* [CodeParserException](../api-reference/interface/CodeParserEception.md)
+
+* [BasicPersonalInfo](../api-reference/interface/BasicPersonalInfo.md)
+
+* [ParseResult](../api-reference/interface/ParseResult.md)
+
+#### Enums
+
+* [EnumErrorCode](../api-reference/enum/EnumErrorCode.md)
+
+* [EnumCodeFormat](../api-reference/enum/EnumCodeFormat.md)
+
+* [EnumResultInfoType](../api-reference/enum/EnumResultInfoType.md)
