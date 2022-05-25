@@ -48,10 +48,10 @@ There are mainly four steps to use a CodeParser:
     The `parseData()` method can then be called to get results in a specific format (see [EnumResultInfoType](../programming/javascript/api-reference/enum/EnumResultInfoType.md)). 
 
 
-Note:
+> Note:
 
-If your input code needs a public key or certificate to help parsing, please set it up beforehand. 
-For example, setting a public key before parsing South Africa driver license is required, while a certificate is usually needed when parsing a COVID-19 Vaccination Certificate. 
+> If your input code needs a public key or certificate to help parsing, please set it up beforehand. 
+> For example, setting a public key before parsing South Africa driver license is required, while a certificate is usually needed when parsing a COVID-19 Vaccination Certificate. 
 
 
 For more information about how to use DCP, read more in the [user guide](../programming/javascript/user-guide.md).
