@@ -23,7 +23,9 @@ For the initial release, DCP is only available for web applications as "DCP Java
 
 * International COVID-19 Vaccination Certificate
 
-  International certificate QR code (VDS-NC) in Australia supported.
+    International certificate QR code (VDS-NC) in Australia supported.
+
+> More scenarios will be supported in future releases, such as MRZ and ID parsing. Please contact us if the data format you are using is not yet supported, or you want to use the parser on a currently unsupported platform.
 
 ## How to use
 
