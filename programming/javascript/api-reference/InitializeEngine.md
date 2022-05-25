@@ -23,14 +23,14 @@ Specifies the path to find the engine(s). The property needs to be set before [l
 static engineResourcePath: string
 ```
 
-### Code Snippet
+**Code Snippet**
 
 ```js
-Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.1/dist/";
+Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.0/dist/";
 await Dynamsoft.DCP.CodeParser.loadWasm();
 ```
 
-## loadWasm()
+## loadWasm
 
 Downloads and compiles the engine to get it loaded/ready for a CodeParser instance to be created. You can call this API to silently set the operating environment of the library as soon as the page is loaded, avoiding unnecessary waiting time when using the library later.
 
@@ -40,7 +40,7 @@ If this API is not called beforehand, it will be called automatically when creat
 static loadWasm(): Promise<void>
 ```
 
-### Code Snippet
+**Code Snippet**
 
 ```js
 window.addEventListener('DOMContentLoaded', (event) => {

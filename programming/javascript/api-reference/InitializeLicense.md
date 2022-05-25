@@ -24,7 +24,7 @@ Specify an online license or an offline license. Dynamsoft usually provides an o
 static license: string
 ```
 
-### Code Snippet
+**Code Snippet**
 
 ```js
 Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
