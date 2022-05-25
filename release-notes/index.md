@@ -16,7 +16,7 @@ needAutoGenerateSidebar: false
 
 Dynamsoft Code Parser 1.0.0 version supports parsing code from driver license and COVID-19 vaccination certificate.
 
-* Diver license
+* Driver license
 
     Cover countries: South Africa, USA, and Canada.
 
