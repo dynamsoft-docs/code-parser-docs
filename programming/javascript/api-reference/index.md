@@ -74,15 +74,11 @@ In order to make the code more predictable and readable, the library defines a s
 ### Interfaces
 
 * [CodeParserException](../api-reference/interface/CodeParserEception.md)
-
 * [BasicPersonalInfo](../api-reference/interface/BasicPersonalInfo.md)
-
 * [ParseResult](../api-reference/interface/ParseResult.md)
 
 ### Enums
 
 * [EnumErrorCode](../api-reference/enum/EnumErrorCode.md)
-
 * [EnumCodeFormat](../api-reference/enum/EnumCodeFormat.md)
-
 * [EnumResultInfoType](../api-reference/enum/EnumResultInfoType.md)
