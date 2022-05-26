@@ -12,6 +12,8 @@ breadcrumbText: BasicPersonalInfo
 
 `interface` BasicPersonalInfo
 
+* idNo: *string*
+
 * firstName: *string*
 
 * middleName: *string*
