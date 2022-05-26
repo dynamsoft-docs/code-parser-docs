@@ -10,7 +10,7 @@ needAutoGenerateSidebar: false
 
 ## 1.0
 
- > First released: 05-30-2022
+ > First released: 05-31-2022
 
 ### Highlights
 

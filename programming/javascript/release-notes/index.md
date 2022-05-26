@@ -9,5 +9,5 @@ breadcrumbText: Release Notes
 
 # Dynamsoft Code Parser JavaScript SDK - Release Notes
 
-- [1.0.0   (05/30/2022)](js-1.md/#100-05302022)
+- [1.0.0   (05/31/2022)](js-1.md/#100-05312022)
 
