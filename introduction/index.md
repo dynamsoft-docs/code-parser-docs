@@ -33,7 +33,7 @@ There are mainly four steps to use a CodeParser:
 
 2.	Create Code Parser instance
 
-    Then you can create a Code Parser instance for later use. Since DCP JavaScript Edition is based on JavaScript and WebAssembly, it's designed to load and compile the WASM resources (the engine files) automaticly before creating a instance. The methods to set the engine path and to load WASM are also provided.
+    Then you can create a Code Parser instance for later use. Since DCP JavaScript Edition is based on JavaScript and WebAssembly, it's designed to load and compile the WASM resources (the engine files) automaticly before creating a instance. Methods to set the engine path and to load WASM are also provided.
 
 3.	Set code format
 
