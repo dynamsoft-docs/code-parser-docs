@@ -21,11 +21,7 @@ For the initial release, DCP is only available for web applications as "DCP Java
     
     All versions of the AAMVA Driver License/Identification specification used in the USA and in Canada supported. Fields parsed from South Africa driver licenses are currently limited to some personal information, while full information will be parsed in future releases.
 
-* International COVID-19 Vaccination Certificate
-
-    International certificate QR code (VDS-NC) in Australia supported.
-
-> More scenarios will be supported in future releases, such as MRZ and ID parsing. Please contact us if the data format you are using is not yet supported, or you want to use the parser on a currently unsupported platform.
+> More scenarios will be supported in future releases, such as International COVID-19 Vaccination Certificate, MRZ and ID parsing. 
 
 ## How to use
 
