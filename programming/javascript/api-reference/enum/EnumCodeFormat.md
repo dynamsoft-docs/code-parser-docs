@@ -14,12 +14,7 @@ breadcrumbText: EnumCodeFormat
 enum EnumCodeFormat{
     CF_AUTO = 0,
     CF_DL_SOUTH_AFRICA = 1,
-    CF_DL_AAMVA_ANSI = 2,
-
-    CF_ID_SOUTH_AFRICA = 3, /**Not supported yet.*/
-    CF_VIN = 4, /**Not supported yet.*/
-
-    CF_VDS_NC = 5
+    CF_DL_AAMVA_ANSI = 2
 }
 ```
 
