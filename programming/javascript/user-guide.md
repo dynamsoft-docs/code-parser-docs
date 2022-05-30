@@ -27,12 +27,12 @@ In this guide, you will learn step by step on how to integrate this library into
   * [Interact with the library](#interact-with-the-library)
 * [API Documentation](#api-documentation)
 
-**Popular Examples**
+<!-- **Popular Examples**
 
 * Hello World - [Guide](#hello-world---simplest-implementation) \| [Github](https://github.com/Dynamsoft/barcode-reader-javascript-samples/blob/v9.0.2/1.hello-world/1.hello-world.html) \| [Run](https://demo.dynamsoft.com/Samples/DBR/JS/1.hello-world/1.hello-world.html?ver=9.0.2&utm_source=guide)
-* Angular App - [Guide]() \| [Github]() \| [Run]()
-* React App - [Guide]() \| [Github]() \| [Run]()
-* Vue App - [Guide]() \| [Github]() \| [Run]()
+* Angular Sample - [Guide]() \| [Github]() \| [Run]()
+* React Sample - [Guide]() \| [Github]() \| [Run]()
+* Vue Sample - [Guide]() \| [Github]() \| [Run]() -->
 
 ## Hello World - Simplest Implementation
 
