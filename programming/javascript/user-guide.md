@@ -50,19 +50,11 @@ The complete code of the "Hello World" example is shown below:
     <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@9.0.2/dist/dbr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.0/dist/dcp.js"></script>
     <script>
-        /** LICENSE ALERT - README 
-         * To use the library, you need to first specify a license key using the API "license" as shown below.
-         */
-        Dynamsoft.DBR.BarcodeReader.license =
-            "f0073tgAAALmBpNnuj78KEox8RvJVXtJbhMFK0zNrK73WpdpaLg7thjQ+nUe5YOCdw771F1U9rBghCCJh/5EFsGpMImT9qxYA8O8nIg==";
+        // Specifies a license, you can visit https://www.dynamsoft.com/customer/license/trialLicense?ver=9.0.2&utm_source=guide&product=dbr&package=js to get your own trial license good for 30 days. 
+        Dynamsoft.DBR.BarcodeReader.license = 'DLS2eyJoYW5kc2hha2VDb2RlIjoiMTAxMTAyNDQ0LVRYbFhaV0pRY205cSIsIm9yZ2FuaXphdGlvbklEIjoiMTAxMTAyNDQ0In0=';
         Dynamsoft.DCP.CodeParser.license =
-            "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=";
-        /** 
-         * You can visit https://www.dynamsoft.com/customer/license/trialLicense?utm_source=github&product=dbr&package=js to get your own trial license good for 30 days. 
-         * Note that if you downloaded this sample from Dynamsoft while logged in, the above license key may already be your own 30-day trial license.
-         * For more information, see https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=9.0.2&utm_source=github#specify-the-license or contact support@dynamsoft.com.
-         * LICENSE ALERT - THE END 
-         */
+        't0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=';
+        // Initializes and uses the library
         (async () => {
             try {
                 let reader = await Dynamsoft.DBR.BarcodeReader.createInstance();
@@ -94,7 +86,7 @@ The complete code of the "Hello World" example is shown below:
 
 #### About the code
 
-* `license`: This property specifies a license key. Note that the license "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=" used in this example is an online license and requires network connection to work. Read more on [Specify the license](#specify-the-license).
+* `license`: This property specifies a license key. Note that the DCP license "t0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=" used in this example is an offline license. Read more on [Specify the license](#specify-the-license).
 
 * `createInstance()`: This method creates a CodeParser object.
 
@@ -171,7 +163,7 @@ The library requires a license to work, use the API `license` to specify a licen
 Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
 ```
 
-To test the library, you can request a 30-day trial license via the [customer portal](https://www.dynamsoft.com/customer/license/trialLicense?ver=1.0.0&utm_source=guide&product=dcp&package=js).
+Please Contact us via the [customer portal](https://www.dynamsoft.com/customer/license/trialLicense?ver=1.0.0&utm_source=guide&product=dcp&package=js) if you want an online license.
 
 > If you registered a Dynamsoft account and downloaded the library from the official website, Dynamsoft will generate a 30-day trial license for you and put the license key into all the samples that come with the library.
 
