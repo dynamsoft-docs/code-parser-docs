@@ -40,9 +40,9 @@ Let’s start with the "Hello World" example of the library which demonstrates h
 
 The complete code of the "Hello World" example is shown below:
 
-*Note:*
+*Note*
 
-Since the code that needs parsing is usually hard to understand and often comes from images, we choose an online image which contains a US driver license to demonstrate how to parse the code with the help of `BarcodeReader`. Please make sure your device is Internet-connected when open the following example in browser.
+> Since the code that needs parsing is usually hard to understand and often comes from images, we choose an online image which contains a US driver license to demonstrate how to parse the code with the help of `BarcodeReader`. Please make sure your device is Internet-connected when open the following example in browser.
 
 ```html
 <!DOCTYPE html>
