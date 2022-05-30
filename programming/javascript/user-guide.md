@@ -227,7 +227,7 @@ parser.setCodeFormat(format);   //format: EnumCodeFormat
 
 #### Parse code
 
-The method parseData takes data in three formats: number[], Uint8Array, string. If you want to parse an barcode directly into readable info, you can use `BarcodeReader` or `BarcodeScanner` first to get barcodeText and then use CodeParser to parse it.
+The method parseData takes data in three formats: number[], Uint8Array, string. If you want to parse a barcode directly into readable info, you can use `BarcodeReader` or `BarcodeScanner` first to get its barcodeBytes and then use CodeParser to parse them.
 
 ```javascript
 parser.parseData(data);   //data: number[] | Uint8Array | string
