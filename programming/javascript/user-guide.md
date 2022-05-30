@@ -121,10 +121,6 @@ Besides using the CDN, you can also download the library and host its files on y
 
 Options to download the library:
 
-* From the website
-
-  <a target="_blank" href="https://www.dynamsoft.com/code-parser/downloads/?ver=1.0.0&utm_source=guide" title="Download the JavaScript Package">Download the JavaScript Package</a>
-
 * yarn
 
   ```cmd
