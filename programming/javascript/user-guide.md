@@ -159,7 +159,7 @@ The library requires a license to work, use the API `license` to specify a licen
 Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
 ```
 
-Please Contact us via the [customer portal](https://www.dynamsoft.com/customer/license/trialLicense?ver=1.0.0&utm_source=guide&product=dcp&package=js) if you want an online license.
+Please Contact us via the [customer portal](https://www.dynamsoft.com/customer/license/trialLicense?ver=1.0.0&utm_source=guide&product=dcp&package=js) if you want a DCP license.
 
 > If you registered a Dynamsoft account and downloaded the library from the official website, Dynamsoft will generate a 30-day trial license for you and put the license key into all the samples that come with the library.
 
