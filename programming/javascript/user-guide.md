@@ -40,14 +40,12 @@ Let’s start with the "Hello World" example of the library which demonstrates h
 
 The complete code of the "Hello World" example is shown below:
 
-*Note*
-
+*Note：*
 > Since the code that needs parsing is usually hard to understand and often comes from images, we choose an online image which contains a US driver license to demonstrate how to parse the code with the help of `BarcodeReader`. Please make sure your device is Internet-connected when open the following example in browser.
 
 ```html
 <!DOCTYPE html>
 <html>
-
 <body>
     <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@9.0.2/dist/dbr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.0/dist/dcp.js"></script>
@@ -65,7 +63,6 @@ The complete code of the "Hello World" example is shown below:
          * For more information, see https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/?ver=9.0.2&utm_source=github#specify-the-license or contact support@dynamsoft.com.
          * LICENSE ALERT - THE END 
          */
-
         (async () => {
             try {
                 let reader = await Dynamsoft.DBR.BarcodeReader.createInstance();
