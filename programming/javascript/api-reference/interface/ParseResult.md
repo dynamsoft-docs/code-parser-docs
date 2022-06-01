@@ -12,7 +12,7 @@ breadcrumbText: ParseResult
 
 `interface` ParseResult
 
-* resultInfoType: *number &#124; [EnumBarcodeFormat](../enum/EnumCodeFormat.md)*
+* resultInfoType: *number &#124; [EnumCodeFormat](../enum/EnumCodeFormat.md)*
 
   > The parsed result type.
 
