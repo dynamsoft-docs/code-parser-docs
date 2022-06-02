@@ -10,7 +10,7 @@ needAutoGenerateSidebar: true
 
 * [Introduction]({{site.introduction}})
 
-* [Development]({{site.development}})
+* Development
   * [JavaScript]({{site.javascript}})
 
 * [Release Notes]({{site.release-notes}})
