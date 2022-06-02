@@ -25,8 +25,3 @@ noTitleIndex: true
 * New method `parseData()` to `CodeParser` to parse code.
 * New method `setCryptoPyblicKey()` to `CodeParser` to set a public key if code parsing needs.
 * New method `setCertificate()` to `CodeParser` to set a certificate if code parsing needs.
-
-
-| Versions | Available Editions |
-|---|---|
-| 1.0.0 | JavaScript |

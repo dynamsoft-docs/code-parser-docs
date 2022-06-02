@@ -22,7 +22,6 @@ Dynamsoft Code Parser 1.0.0 version supports parsing code from driver license an
 
     All versions of the AAMVA Driver License/Identification specification used in the USA and in Canada supported. Fields parsed from South Africa driver licenses are currently limited to some personal information.
 
-
 | Versions | Available Editions |
 |---|---|
-| 1.0.0 | [JavaScript](../programming/javascript/release-notes/js-1.md) |
+| 1.0.0 | [JavaScript](../development/javascript/release-notes/js-1.md) |

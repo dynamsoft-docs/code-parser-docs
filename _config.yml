@@ -9,36 +9,36 @@ parameters: /code-parser/docs/parameters/
 enumerations: /code-parser/docs/parameters/enum/
 parameters-reference: /code-parser/docs/parameters/reference/
 
-programming: /code-parser/docs/programming/
+development: /code-parser/docs/development/
 
-c-cplusplus: /code-parser/docs/programming/c-cplusplus/
-c-cplusplus-api-reference: /code-parser/docs/programming/c-cplusplus/api-reference/
+c-cplusplus: /code-parser/docs/development/c-cplusplus/
+c-cplusplus-api-reference: /code-parser/docs/development/c-cplusplus/api-reference/
 
-c-functions: /code-parser/docs/programming/c-cplusplus/api-reference/c-functions/
-cpp-methods: /code-parser/docs/programming/c-cplusplus/api-reference/c-code-parser-class/
-c-cplusplus-structs: /code-parser/docs/programming/c-cplusplus/api-reference/structs/
+c-functions: /code-parser/docs/development/c-cplusplus/api-reference/c-functions/
+cpp-methods: /code-parser/docs/development/c-cplusplus/api-reference/c-code-parser-class/
+c-cplusplus-structs: /code-parser/docs/development/c-cplusplus/api-reference/structs/
 
-c-cplusplus-release-notes: /code-parser/docs/programming/c-cplusplus/release-notes/
+c-cplusplus-release-notes: /code-parser/docs/development/c-cplusplus/release-notes/
 
-android: /code-parser/docs/programming/android/
-android-api: /code-parser/docs/programming/android/api-reference/
-android-release-notes: /code-parser/docs/programming/android/release-notes/
+android: /code-parser/docs/development/android/
+android-api: /code-parser/docs/development/android/api-reference/
+android-release-notes: /code-parser/docs/development/android/release-notes/
 
-dotnet: /code-parser/docs/programming/dotnet/
-dotnet_api: /code-parser/docs/programming/dotnet/api-reference/
-dotnet_release_notes: /code-parser/docs/programming/dotnet/release-notes/
+dotnet: /code-parser/docs/development/dotnet/
+dotnet_api: /code-parser/docs/development/dotnet/api-reference/
+dotnet_release_notes: /code-parser/docs/development/dotnet/release-notes/
 
-objectivec-swift: /code-parser/docs/programming/objectivec-swift/
-objectivec-swift-api: /code-parser/docs/programming/objectivec-swift/api-reference/
-objectivec-swift-release-notes: /code-parser/docs/programming/objectivec-swift/release-notes/
+objectivec-swift: /code-parser/docs/development/objectivec-swift/
+objectivec-swift-api: /code-parser/docs/development/objectivec-swift/api-reference/
+objectivec-swift-release-notes: /code-parser/docs/development/objectivec-swift/release-notes/
 
-java: /code-parser/docs/programming/java/
-java-api: /code-parser/docs/programming/java/api-reference/
-java-release-notes: /code-parser/docs/programming/java/release-notes/
+java: /code-parser/docs/development/java/
+java-api: /code-parser/docs/development/java/api-reference/
+java-release-notes: /code-parser/docs/development/java/release-notes/
 
-javascript: /code-parser/docs/programming/javascript/
-javascript-api: /code-parser/docs/programming/javascript/api-reference/
-javascript-release-notes: /code-parser/docs/programming/javascript/release-notes/
+javascript: /code-parser/docs/development/javascript/
+javascript-api: /code-parser/docs/development/javascript/api-reference/
+javascript-release-notes: /code-parser/docs/development/javascript/release-notes/
 
 assets: /code-parser/docs/assets/
 edit_icon: /code-parser/docs/assets/img-icon/edit-icon.png

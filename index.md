@@ -10,7 +10,7 @@ needAutoGenerateSidebar: true
 
 * [Introduction](https://www.dynamsoft.com/code-parser/docs/introduction/?ver=latest)
 
-* [Programming](https://www.dynamsoft.com/code-parser/docs/programming/?ver=latest)
-  * [JavaScript](https://www.dynamsoft.com/code-parser/docs/programming/javascript/?ver=latest)
+* [Development](https://www.dynamsoft.com/code-parser/docs/development/?ver=latest)
+  * [JavaScript](https://www.dynamsoft.com/code-parser/docs/development/javascript/?ver=latest)
 
 * [Release Notes](https://www.dynamsoft.com/code-parser/docs/release-notes/?ver=latest)

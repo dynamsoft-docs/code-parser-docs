@@ -30,14 +30,14 @@ The APIs for this class include:
 
 | API Name | Description |
 |---|---|
-| [license](InitializeLicense.md#license) | Initializes license of DCP. |
+| [license](LicenseControl.md#license) | Initializes license of DCP. |
 
 ### Initialize Engine
 
 | API Name | Description |
 |---|---|
-| [engineResourcePath](InitializeEngine.md#engineresourcepath) | Specifies the path of WASM engine. |
-| [loadWasm()](InitializeEngine.md#loadwasm) | Loads and compiles the WASM. |
+| [engineResourcePath](InitializationControl.md#engineresourcepath) | Specifies the path of WASM engine. |
+| [loadWasm()](InitializationControl.md#loadwasm) | Loads and compiles the WASM. |
 
 ### Create and Destroy
 
@@ -64,8 +64,6 @@ The APIs for this class include:
 |---|---|
 | [setCryptoPublicKey()](CodeParser.md#setcryptopublickey) | Set a public key if code parsing needs. |
 | [setCertificate()](CodeParser.md#setcertificate) | Set a certificate if code parsing needs. |
-
-
 
 ## Interfaces and Enums
 
