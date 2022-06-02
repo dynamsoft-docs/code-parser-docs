@@ -54,7 +54,7 @@ The complete code of the "Hello World" example is shown below:
                 let reader = await Dynamsoft.DBR.BarcodeReader.createInstance();
                 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 
-                parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_DL_AAMVA_ANSI);
+                parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_AUTO);
 
                 // Decode the driver license with BarcodeReader
                 let results = await reader.decode(
