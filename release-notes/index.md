@@ -8,76 +8,20 @@ needAutoGenerateSidebar: false
 
 # Release Notes
 
-## 2.2
+## 1.0
 
-> First released: 11-30-2021
-
-### Highlights
-
-{%- include release-notes/product-highlight-2.2.md -%}
-
-| Versions | Available Editions |
-| -------- | ------------------ |
-| 2.2.4 | [JavaScript](../programming/javascript/release-notes/javascript-2.md#224-04142022) |
-| 2.2.2 | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-2.md#222-03032022) / [JavaScript](../programming/javascript/release-notes/javascript-2.md#222-03032022) |
-| 2.2.1 | [JavaScript](../programming/javascript/release-notes/javascript-2.md#221-02232022) |
-| 2.2.0 | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-2.md#20-11302021) / [JavaScript](../programming/javascript/release-notes/javascript-2.md#220-12072021) |
-
-## 2.0
-> First released: 08-26-2021
+ > First released: 05-31-2022
 
 ### Highlights
 
-{%- include release-notes/product-highlight-2.0.md -%}
+Dynamsoft Code Parser 1.0.0 version supports parsing code from driver license and COVID-19 vaccination certificate.
+
+* Driver license
+
+    Cover countries: USA, Canada, South Africa.
+
+    All versions of the AAMVA Driver License/Identification specification used in the USA and in Canada supported. Fields parsed from South Africa driver licenses are currently limited to some personal information.
 
 | Versions | Available Editions |
-| -------- | ------------------ |
-| 2.0.0 | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-2.md#20-08262021) / [DotNet](../programming/dotnet/release-notes/dotnet-2.md#20-08262021) / [Java](../programming/java/release-notes/java-2.md#20-08262021) / [Android](../programming/android/release-notes/android-2.md#20-08262021) / [iOS](../programming/objectivec-swift/release-notes/ios-2.md#20-08262021) |
-
-&nbsp;
-
-<div class="fold-panel-prefix"></div>
-
-## 1.x Versions <i class="fa fa-caret-down"></i>
-
-<div class="fold-panel-start"></div>
-
-&nbsp;
-
-### 1.2
-> First released: 05-18-2021
-
-#### Highlights
-
-{%- include release-notes/product-highlight-1.2.md -%}
-
-| Versions | Available Editions |
-| -------- | ------------------ |
-| 1.2.0 | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-1.md#12-05182021) / [DotNet](../programming/dotnet/release-notes/dotnet-1.md#12-05182021) / [Android](../programming/android/release-notes/android-1.md#12-05182021) / [iOS](../programming/objectivec-swift/release-notes/ios-1.md#12-05182021) |
-| 1.2.1 | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-1.md#121-06082021) / [DotNet](../programming/dotnet/release-notes/dotnet-1.md#121-06082021) / [Java](../programming/java/release-notes/java-1.md#121-06082021) / [Android](../programming/android/release-notes/android-1.md#121-06082021) / [iOS](../programming/objectivec-swift/release-notes/ios-1.md#121-06082021) |
-
-&nbsp;
-
-### 1.0
-> First released: 02-24-2021
-
-#### Highlights
-
-{%- include release-notes/product-highlight-1.0.md -%}
-
-[C/C++](../programming/c-cplusplus/release-notes/c-cpp-1.md#10-02242021) / [DotNet](../programming/dotnet/release-notes/dotnet-1.md#10-02242021) / [Android](../programming/android/release-notes/android-1.md#10-02242021) / [iOS](../programming/objectivec-swift/release-notes/ios-1.md#10-02242021)
-
-| Versions | Available Editions |
-| -------- | ------------------ |
-| 1.0.0 | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-1.md#10-02242021) / [DotNet](../programming/dotnet/release-notes/dotnet-1.md#10-02242021) / [Android](../programming/android/release-notes/android-1.md#10-02242021) / [iOS](../programming/objectivec-swift/release-notes/ios-1.md#10-02242021) |
-
-&nbsp;
-
-### 1.0 Beta
-> First released: 12-10-2020
-
-| Versions | Available Editions |
-| -------- | ------------------ |
-| 1.0.0 Beta | [C/C++](../programming/c-cplusplus/release-notes/c-cpp-1.md#10-beta-12102020) |
-
-<div class="fold-panel-end"></div>
+|---|---|
+| 1.0.0 | [JavaScript](../development/javascript/release-notes/js-1.md) |
