@@ -8,9 +8,9 @@ needAutoGenerateSidebar: true
 
 # Dynamsoft Code Parser Documentation
 
-* [Introduction](https://www.dynamsoft.com/code-parser/docs/introduction/?ver=latest)
+* [Introduction]({{site.introduction}})
 
-* [Development](https://www.dynamsoft.com/code-parser/docs/development/?ver=latest)
-  * [JavaScript](https://www.dynamsoft.com/code-parser/docs/development/javascript/?ver=latest)
+* [Development]({{site.development}})
+  * [JavaScript]({{site.javascript}})
 
-* [Release Notes](https://www.dynamsoft.com/code-parser/docs/release-notes/?ver=latest)
+* [Release Notes]({{site.release-notes}})
