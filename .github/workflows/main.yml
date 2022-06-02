@@ -30,6 +30,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           cd /home/ubuntu
+          [ -d DCPDoc ] && rm -rf DCPDoc
+          [ -d code-parser-docs ] && rm -rf code-parser-docs
           [ ! -d DCPDoc ] && mkdir -p DCPDoc
           [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git
           cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
