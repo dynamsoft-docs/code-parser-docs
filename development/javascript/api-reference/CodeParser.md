@@ -41,13 +41,15 @@ console.log(result);
 |---|---|
 | [parseData()](#parsedata) | Parses code data for readable results. |
 
+<!--
+
 ### Set Encryption Key
 
 | API Name | Description |
 |---|---|
 | [setCryptoPublicKey()](#setcryptopublickey) | Set a public key if code parsing needs. |
 | [setCertificate()](#setcertificate) | Set a certificate if code parsing needs. |
-
+-->
 
 
 ## createInstance
@@ -134,6 +136,7 @@ await parser.parseData(YOUR-CODE-THAT-NEEDS-PARSING);
 * [Uint8Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array)
 * [ParseResult](./interface/ParseResult.md)
 
+<!--
 
 ## setCryptoPublicKey
 
@@ -187,3 +190,4 @@ parser.setCertificate(YOUR-CERTIFICATE);
 
 * [ArrayBuffer](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer)
 
+-->

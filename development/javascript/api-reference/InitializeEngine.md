@@ -9,11 +9,10 @@ noTitleIndex: true
 breadcrumbText: Initialize Engine
 ---
 
-# Initialize Engine
+# Initialization
 
 * engineResourcePath
 * loadWasm()
-
 
 ## engineResourcePath
 

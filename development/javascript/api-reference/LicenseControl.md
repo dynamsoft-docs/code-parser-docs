@@ -9,7 +9,7 @@ noTitleIndex: true
 breadcrumbText: Initialize License
 ---
 
-# Initialize License
+# License Control
 
 * license
 

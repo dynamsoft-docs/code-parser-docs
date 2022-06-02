@@ -58,12 +58,16 @@ The APIs for this class include:
 |---|---|
 | [parseData()](CodeParser.md#parsedata) | Parses code data for readable results. |
 
+<!--
+
 ### Set Encryption Key
 
 | API Name | Description |
 |---|---|
 | [setCryptoPublicKey()](CodeParser.md#setcryptopublickey) | Set a public key if code parsing needs. |
 | [setCertificate()](CodeParser.md#setcertificate) | Set a certificate if code parsing needs. |
+
+-->
 
 ## Interfaces and Enums
 
