@@ -47,7 +47,7 @@ The complete code of the "Hello World" example is shown below:
         // Specifies a license 
         Dynamsoft.DBR.BarcodeReader.license = 'DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9';
         Dynamsoft.DCP.CodeParser.license =
-            't0068lQAAALYEhtEBvMXXW/PQNyEwn0zwxU2eDrsWWkyVFnHbiQlE6VXULCiJA5B7kAYMJRlKL5N94Wi7R62CEiCgJnJsfNc=';
+            't0068lQAAAIkK/J98hFlGuR23+WYADkNElcVBif3GpdrcU/KkcU4eEvYHEopVEHGmxqEF2L+XTTJ/DNFYnrKm5RQlvCXNAX8=';
         // Initializes and uses the SDK
         (async () => {
             try {
@@ -60,7 +60,7 @@ The complete code of the "Hello World" example is shown below:
                 let results = await reader.decode(
                     "https://demo.dynamsoft.com/samples/dbr/js/4.use-case/SampleDriversLicense.jpg");
 
-                var info = "";
+                let info = "";
                 for (let result of results) {
                     // Parse the "code" retrieved from the barcode
                     info = await parser.parseData(result.barcodeBytes);

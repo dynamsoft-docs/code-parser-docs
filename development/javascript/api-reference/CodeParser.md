@@ -57,7 +57,7 @@ console.log(result);
 Creates a `CodeParser` instance.
 
 ```typescript
-static createInstance(): Promise<BarcodeReader>
+static createInstance(): Promise<CodeParser>
 ```
 
 ### Return Value
