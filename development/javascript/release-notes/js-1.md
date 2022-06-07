@@ -12,8 +12,6 @@ noTitleIndex: true
 
 ## 1.0.2 (06/07/2022)
 
- > First released: 05-31-2022
-
 ### New
 
 * New property `license` to control license of DCP.
