@@ -89,7 +89,7 @@ The complete code of the "Hello World" example is shown below:
 
 * `parseData`: This method parses the code.
 
-For the rest of the code, please read more about [DBR-JS](https://www.dynamsoft.com/barcode-reader/development/javascript/user-guide/?ver=latest#getting-started---hello-world).
+For the rest of the code, please read more about [DBR-JS User Guide](https://www.dynamsoft.com/barcode-reader/development/javascript/user-guide/?ver=1.0.1#getting-started---hello-world).
 
 ## Building your own page
 
@@ -199,7 +199,7 @@ function foo() {
 
 #### Set code format
 
-Before parsing, you need to specify the format of code to parse. See [EnumCodeFormat](https://www.dynamsoft.com/code-parser/docs/development/javascript/api-reference/enum/EnumCodeFormat.md) to check if DCP-JS covers the code format you need.
+Before parsing, you need to specify the format of code to parse. See [EnumCodeFormat](https://www.dynamsoft.com/code-parser/docs/development/javascript/api-reference/enum/EnumCodeFormat.html?ver=1.0.1) to check if DCP-JS covers the code format you need.
 
 ```javascript
 parser.setCodeFormat(format); //format: EnumCodeFormat
@@ -209,7 +209,7 @@ parser.setCodeFormat(format); //format: EnumCodeFormat
 
 The method `parseData()` takes data in three formats: `number[]`, `Uint8Array` and `string`. If you want to parse a barcode into readable info, you should first extract the information from the barcode using DBR-JS before parsing it with DCP-JS.
 
-> Read more about [DBR-JS](https://www.dynamsoft.com/barcode-reader/development/javascript/user-guide/?ver=latest#getting-started---hello-world).
+> For more information on using DBR-JS, read [DBR-JS User Guide](https://www.dynamsoft.com/barcode-reader/development/javascript/user-guide/?ver=1.0.1#getting-started---hello-world).
 
 ```javascript
 parser.parseData(data); //data: number[] | Uint8Array | string
@@ -228,5 +228,4 @@ parser.parseData(data); //data: number[] | Uint8Array | string
 
 ## API Documentation
 
-You can check out the detailed documentation about the APIs of the SDK at
-[https://www.dynamsoft.com/code-parser/docs/development/javascript/user-guide/?ver=latest](https://www.dynamsoft.com/code-parser/docs/development/javascript/user-guide/?ver=latest).
+For more information about the APIs of DCP-JS, read [Dynamsoft Code Parser JavaScript Edition API Reference](https://www.dynamsoft.com/code-parser/docs/development/javascript/api-reference/?ver=1.0.1).
