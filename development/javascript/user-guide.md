@@ -42,7 +42,7 @@ The complete code of the "Hello World" example is shown below:
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@9.0.2/dist/dbr.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.0/dist/dcp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.1/dist/dcp.js"></script>
   <script>
         // Specifies a license 
         Dynamsoft.DBR.BarcodeReader.license = 'DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9';
@@ -102,13 +102,13 @@ The simplest way to include the SDK is to use either the [jsDelivr](https://jsde
 * jsDelivr
 
     ```html
-    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.0/dist/dcp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.1/dist/dcp.js"></script>
     ```
 
 * UNPKG  
 
     ```html
-    <script src="https://unpkg.com/dynamsoft-code-parser@1.0.0/dist/dcp.js"></script>
+    <script src="https://unpkg.com/dynamsoft-code-parser@1.0.1/dist/dcp.js"></script>
     ```
 
 #### Host the SDK yourself
@@ -132,7 +132,7 @@ Options to download the SDK:
 Depending on how you downloaded the SDK and where you put it, you can typically include it like this:
 
 ```html
-<script src="/dynamsoft-code-parser-js-1.0.0/dist/dcp.js"></script>
+<script src="/dynamsoft-code-parser-js-1.0.1/dist/dcp.js"></script>
 ```
 
 or
@@ -163,7 +163,7 @@ The purpose is to tell the SDK where to find the engine files (\*.worker.js, \*.
 
 ```javascript
 //The following code uses the jsDelivr CDN, feel free to change it to your own location of these files
-Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.0/dist/";
+Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.1/dist/";
 ```
 
 ### Interact with the SDK
