@@ -10,7 +10,7 @@ noTitleIndex: true
 
 # Release Notes for JavaScript SDK - 1.x
 
-## 1.0.0 (05/31/2022)
+## 1.0.1 (05/31/2022)
 
  > First released: 05-31-2022
 

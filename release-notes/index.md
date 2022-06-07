@@ -8,13 +8,13 @@ needAutoGenerateSidebar: false
 
 # Release Notes
 
-## 1.0
+## 1.0.1
 
  > First released: 05-31-2022
 
 ### Highlights
 
-Dynamsoft Code Parser 1.0.0 version supports parsing code from driver license and COVID-19 vaccination certificate.
+Dynamsoft Code Parser 1.0.1 version supports parsing code from driver license and COVID-19 vaccination certificate.
 
 * Driver license
 
@@ -24,4 +24,4 @@ Dynamsoft Code Parser 1.0.0 version supports parsing code from driver license an
 
 | Versions | Available Editions |
 |---|---|
-| 1.0.0 | [JavaScript](../development/javascript/release-notes/js-1.md) |
+| 1.0.1 | [JavaScript](../development/javascript/release-notes/js-1.md) |

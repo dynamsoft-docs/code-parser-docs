@@ -25,7 +25,7 @@ static engineResourcePath: string
 **Code Snippet**
 
 ```js
-Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.0/dist/";
+Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-javascript-codeparser@1.0.1/dist/";
 await Dynamsoft.DCP.CodeParser.loadWasm();
 ```
 
