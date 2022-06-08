@@ -207,7 +207,7 @@ parser.setCodeFormat(format); //format: EnumCodeFormat
 
 The method `parseData()` takes data in three formats: `number[]`, `Uint8Array` and `string`. If you want to parse a barcode into readable info, you should first extract the information from the barcode using DBR-JS before parsing it with DCP-JS.
 
-> For more information on using DBR-JS, read [DBR-JS User Guide](https://www.dynamsoft.com/barcode-reader/development/javascript/user-guide/?ver=1.0.2#getting-started---hello-world).
+> For more information on using DBR-JS, read [DBR-JS User Guide](https://www.dynamsoft.com/barcode-reader/programming/javascript/user-guide/).
 
 ```javascript
 parser.parseData(data); //data: number[] | Uint8Array | string
