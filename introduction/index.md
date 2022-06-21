@@ -15,14 +15,19 @@ For the initial release, DCP is only available for web applications as "DCP Java
 
 ## Usage Scenarios
 
-* Driver license
+* AAMVA driver's license
 
-    Countries covered: USA, Canada, South Africa.
+Countries covered: USA, Canada, South Africa.
 
-    > 1. All versions of the AAMVA Driver's License/Identification Specification used in the US and Canada are supported.
-    > 2. The fields parsed from the South African driver's license are currently limited to some personal information, while the full information will be parsed in a future release.
+All versions of the AAMVA Driver's License/Identification Specification used in the US and Canada are supported.
 
-> Future releases will support more scenarios such as international COVID-19 vaccination certificates, machine readable zones and ID parsing.
+* South African driver's license
+
+The fields parsed from the South African driver's license are currently limited to some personal information, while the full information will be parsed in a future release.
+
+* Incoming soon
+
+Future releases will support more scenarios such as international COVID-19 vaccination certificates, machine readable zones and ID parsing.
 
 ## Supported Platforms
 
