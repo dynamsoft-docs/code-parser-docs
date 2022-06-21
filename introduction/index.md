@@ -25,7 +25,7 @@ All versions of the AAMVA Driver's License/Identification Specification used in 
 
 The fields parsed from the South African driver's license are currently limited to some personal information, while the full information will be parsed in a future release.
 
-* Incoming soon
+* Coming soon
 
 Future releases will support more scenarios such as international COVID-19 vaccination certificates, machine readable zones and ID parsing.
 
