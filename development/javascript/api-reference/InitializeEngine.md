@@ -16,7 +16,7 @@ breadcrumbText: Initialize Engine
 
 ## engineResourcePath
 
-Specifies the path to find the engine(s). The property needs to be set before [loadWasm](#loadwasm). If not specified, the library will try to find the engine in the same location as the main JavaScript file (dbr.js).
+Specifies the path to find the engine(s). The property needs to be set before [loadWasm](#loadwasm). If not specified, the library will try to find the engine in the same location as the main JavaScript file (dcp.js).
 
 ```typescript
 static engineResourcePath: string
