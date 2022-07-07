@@ -61,9 +61,10 @@ jobs:
         run: |
           cd /home/ubuntu
           [ ! -d code-parser-docs-prev ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git code-parser-docs-prev
+          [ ! -d Docs-Template-Repo-preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-preview
           [ ! -d DCPDocPreview ] && mkdir -p DCPDocPreview
           cd code-parser-docs-prev && git pull && cd .. && cp -rfp ./code-parser-docs-prev/* ./DCPDocPreview/
-          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDocPreview/
+          cd Docs-Template-Repo-preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-preview/* ./DCPDocPreview/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDocPreview/_config.yml
           cd DCPDocPreview && bundle exec jekyll build --incremental
