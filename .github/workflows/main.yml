@@ -85,4 +85,4 @@ jobs:
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
           local-dir: /home/ubuntu/DCPDocPreview/_site/
-          server-dir: /www.dynamsoft.com/code-parser/docs/          
+          server-dir: /www.dynamsoft.com/code-parser/docs/test/          
