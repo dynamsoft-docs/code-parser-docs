@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - Initialize Engine
+title: Initialize Engine - Dynamsoft Code Parser JavaScript API
 description: This page shows the APIs used to initialize engine in Dynamsoft Code Parser JavaScript SDK.
 keywords: Initialize Engine, api reference, javascript, js
 needAutoGenerateSidebar: true

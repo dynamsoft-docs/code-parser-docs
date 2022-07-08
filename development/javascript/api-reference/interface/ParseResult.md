@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript Interface - ParseResult
+title: ParseResult - Dynamsoft Code Parser JavaScript Interface
 description: This page shows the ParseResult interface of Dynamsoft Code Parser for JavaScript.
 keywords: ParseResult, javascript, interface
 needAutoGenerateSidebar: false

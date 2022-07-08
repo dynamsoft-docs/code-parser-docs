@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - v1.0.2 CodeParser
+title: CodeParser - Dynamsoft Code Parser JavaScript API
 description: This is the CodeParser Class of Dynamsoft Code Parser JavaScript SDK.
 keywords: CodeParser, api reference, javascript, js
 needAutoGenerateSidebar: true

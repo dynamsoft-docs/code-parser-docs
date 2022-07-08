@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript Interface - BasicPersonalInfo
+title: BasicPersonalInfo - Dynamsoft Code Parser JavaScript Interface
 description: This page shows the BasicPersonalInfo interface of Dynamsoft Code Parser for JavaScript.
 keywords: BasicPersonalInfo, javascript, interface
 needAutoGenerateSidebar: false

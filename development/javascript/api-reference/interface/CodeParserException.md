@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript Interface - CodeParserException
+title: CodeParserException - Dynamsoft Code Parser JavaScript Interface
 description: This page shows the CodeParserException interface of Dynamsoft Code Parser for JavaScript.
 keywords: CodeParserException, javascript, interface
 needAutoGenerateSidebar: false

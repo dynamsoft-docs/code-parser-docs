@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser for JavaScript - Main Page
+title: Main Page - Dynamsoft Code Parser for JavaScript
 description: This is the main page of Dynamsoft Code Parser for JavaScript Language.
 keywords: javascript
 needAutoGenerateSidebar: true

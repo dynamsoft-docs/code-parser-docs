@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - Interfaces and Enums
+title: Interfaces and Enums - Dynamsoft Code Parser JavaScript API
 description: This page shows the interfaces and enums of Dynamsoft Code Parser JavaScript SDK.
 keywords: CodeParser, api reference, javascript, js
 needAutoGenerateSidebar: true

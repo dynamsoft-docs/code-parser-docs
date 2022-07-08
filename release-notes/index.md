@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Label Recoginizer SDK - Release Notes
+title: Release Notes - Dynamsoft Code Parser SDK 
 description: This is the release notes page of Dynamsoft Label Recoginizer SDK.
 keywords: release notes
 needAutoGenerateSidebar: false

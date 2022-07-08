@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser for JavaScript - User Guide
+title: User Guide - Dynamsoft Code Parser for JavaScript
 description: This is the user guide page of Dynamsoft Code Parser for JavaScript SDK.
 keywords: user guide, javascript
 breadcrumbText: User Guide

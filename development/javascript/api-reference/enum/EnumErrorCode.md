@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - Enum
+title: EnumErrorCode - Dynamsoft Code Parser JavaScript Enum
 description: This page shows the EnumErrorCode enum of Dynamsoft Code Parser for JavaScript.
 keywords: EnumErrorCode, javascript, enum
 needAutoGenerateSidebar: false

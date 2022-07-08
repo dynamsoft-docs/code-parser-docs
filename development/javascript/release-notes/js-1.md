@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript SDK - Release Notes v1.x
+title: Release Notes v1.x - Dynamsoft Code Parser JavaScript SDK
 description: This is the release notes page for Dynamsoft Code Parser JavaScript SDK v1.x.
 keywords: release notes, javascript
 needAutoGenerateSidebar: true

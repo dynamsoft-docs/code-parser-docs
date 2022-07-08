@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - Enum
+title: EnumCodeFormat - Dynamsoft Code Parser JavaScript Enum
 description: This page shows the EnumCodeFormat enum of Dynamsoft Code Parser for JavaScript.
 keywords: EnumCodeFormat, javascript, enum
 needAutoGenerateSidebar: false

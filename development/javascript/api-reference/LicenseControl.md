@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Dynamsoft Code Parser JavaScript API - Initialize License
+title: Initialize License - Dynamsoft Code Parser JavaScript API
 description: This page shows the APIs used to initialize license in Dynamsoft Code Parser JavaScript SDK.
 keywords: Initialize License, api reference, javascript, js
 needAutoGenerateSidebar: true
