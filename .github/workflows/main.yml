@@ -70,7 +70,6 @@ jobs:
           cd /home/ubuntu
           [ ! -d code-parser-docs-prev ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-prev
           [ ! -d Docs-Template-Repo-preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-preview
-          [ ! -d DCPDocPreview ] && mkdir -p DCPDocPreview
           cd code-parser-docs-prev && git pull && cd .. && cp -rfp ./code-parser-docs-prev/* ./DCPDocPreview/
           cd Docs-Template-Repo-preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-preview/* ./DCPDocPreview/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
@@ -85,4 +84,4 @@ jobs:
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
           local-dir: /home/ubuntu/DCPDocPreview/_site/
-          server-dir: /www.dynamsoft.com/code-parser/docs/test/          
+          server-dir: /www.dynamsoft.com/code-parser/docs/          
