@@ -1,6 +1,6 @@
 ---
 layout: default-layout
-title: Main Page - Dynamsoft Code Parser Introduction
+title: Introduction - Dynamsoft Code Parser SDK
 description: This is the main page of Dynamsoft Code Parser Introduction. 
 needAutoGenerateSidebar: true
 needGenerateH3Content: true
