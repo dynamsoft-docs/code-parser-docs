@@ -38,6 +38,8 @@ java-release-notes: /code-parser/docs/development/java/release-notes/
 
 javascript: /code-parser/docs/development/javascript/
 javascript-api: /code-parser/docs/development/javascript/api-reference/
+javascript-api-enum: /code-parser/docs/development/javascript/api-reference/enum/
+javascript-api-interface: /code-parser/docs/development/javascript/api-reference/interface/
 javascript-release-notes: /code-parser/docs/development/javascript/release-notes/
 
 assets: /code-parser/docs/assets/
