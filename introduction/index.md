@@ -61,7 +61,7 @@ There are mainly four steps to use a CodeParser, the following takes the JavaScr
 
     Lastly, call the method `parseData()` to do the actual parsing and get results in a specific format (see [EnumResultInfoType](../development/javascript/api-reference/enum/EnumResultInfoType.md)).
 
-> If your input code requires a public key or certificate to help with parsing, please set it up beforehand. For example, a public key needs to be set before parsing a South African driver's license, and a certificate is often required when parsing a COVID-19 vaccination certificate.
+<!-- > If your input code requires a public key or certificate to help with parsing, please set it up beforehand. For example, a public key needs to be set before parsing a South African driver's license, and a certificate is often required when parsing a COVID-19 vaccination certificate. -->
 
 ## Next Step
 
