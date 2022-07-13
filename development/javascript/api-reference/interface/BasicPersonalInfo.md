@@ -14,6 +14,8 @@ breadcrumbText: BasicPersonalInfo
 
 * idNo: *string*
 
+* fullName: *string*
+
 * firstName: *string*
 
 * middleName: *string*

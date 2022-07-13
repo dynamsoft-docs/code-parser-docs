@@ -105,7 +105,7 @@ A promise that resolves when the operation succeeds.
 ### Code Snippet
 
 ```js
-await parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_DL_AAMVA_ANSI);
+await parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_AUTO);
 // ... parse ...
 ```
 

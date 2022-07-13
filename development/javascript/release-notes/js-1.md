@@ -10,6 +10,18 @@ noTitleIndex: true
 
 # Release Notes for JavaScript SDK - 1.x
 
+## 1.1.0 (07/21/2022)
+
+### Add
+
+* Add `CF_AADHAAR` to EnumCodeFormat.
+* Add `RIT_AADHAAR` to EnumResultInfoType.
+* Add some new enums to [EnumErrorCode](../api-reference/enum/EnumErrorCode.md).
+
+### Change
+
+* Change `CF_DL_AAMVA_ANSI` to `CF_DL_AAMVA`.
+
 ## 1.0.2 (06/08/2022)
 
 ### New

@@ -14,7 +14,8 @@ breadcrumbText: EnumResultInfoType
 enum EnumResultInfoType{
     RIT_DRIVER_LICENSE_INFO = 0,
     RIT_PERSONAL_ID_INFO = 1,
-    RIT_VDSNC_INFO = 2
+    RIT_VDSNC_INFO = 2,
+    RIT_AADHAAR = 3
 }
 ```
 

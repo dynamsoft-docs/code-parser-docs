@@ -19,11 +19,15 @@ For the initial release, DCP is only available for web applications as "DCP Java
 
 Countries covered: USA, Canada, South Africa.
 
-All versions of the AAMVA Driver's License/Identification Specification used in the US and Canada are supported.
+All versions of the AAMVA Driver's License/Identification Specification used in the US and Canada are supported. The PDF417 barcodes on driver licenses with magnetic stripes, which follow the AAMVA Magnetic Stripe standard, are capable to get parsed.
 
 * South African driver's license
 
 The fields parsed from the South African driver's license are currently limited to some personal information, while the full information will be parsed in a future release.
+
+* Aadhaar Card in India
+
+The normal QR codes or Secure QR codes on eAadhaar, Aadhaar Letter and Aadhaar PVC Card are all capable to be parsed. 
 
 * Coming soon
 

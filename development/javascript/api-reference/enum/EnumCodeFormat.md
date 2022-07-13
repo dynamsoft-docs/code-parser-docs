@@ -14,7 +14,8 @@ breadcrumbText: EnumCodeFormat
 enum EnumCodeFormat{
     CF_AUTO = 0,
     CF_DL_SOUTH_AFRICA = 1,
-    CF_DL_AAMVA_ANSI = 2
+    CF_DL_AAMVA = 2,
+    CF_AADHAAR = 6
 }
 ```
 

@@ -9,6 +9,26 @@ needAutoGenerateSidebar: false
 
 # Release Notes
 
+## 1.1.0
+
+ > First released: 07-19-2022
+
+### Highlights
+
+Dynamsoft Code Parser 1.1.0 version supports parsing two new types:
+
+* Driver license with magnetic stripes 
+
+    The PDF417 barcodes on driver licenses with magnetic stripes, which follow the AAMVA Magnetic Stripe standard, are capable to get parsed. Such as a combined BC Driver's License and Services Card（with a Magnetic Stripe on it）.
+
+* Aadhaar Card in India
+
+    The normal QR codes or Secure QR codes on eAadhaar, Aadhaar Letter and Aadhaar PVC Card are all capable to be parsed. 
+
+| Versions | Available Editions |
+|---|---|
+| 1.1.0 | [JavaScript](../development/javascript/release-notes/js-1.md) |
+
 ## 1.0.2
 
  > First released: 06-08-2022

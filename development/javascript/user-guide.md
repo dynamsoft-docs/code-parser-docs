@@ -9,7 +9,7 @@ needAutoGenerateSidebar: true
 needGenerateH3Content: true
 ---
 
-<!--The original doc is hosted here => https://github.com/dynamsoft-docs/code-parser-docs-js/blob/main/development/javascript/user-guide.md -->
+<!--The original doc is hosted here => https://github.com/dynamsoft-docs/code-parser-docs/blob/main/development/javascript/user-guide.md -->
 
 # Dynamsoft Code Parser for Your Website
 
@@ -40,19 +40,18 @@ The complete code of the "Hello World" example is shown below:
 
 <body>
     <script src="https://cdn.jsdelivr.net/npm/dynamsoft-javascript-barcode@9.0.2/dist/dbr.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.2/dist/dcp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.1.0/dist/dcp.js"></script>
   <script>
         // Specifies a license 
         Dynamsoft.DBR.BarcodeReader.license = 'DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9';
-        Dynamsoft.DCP.CodeParser.license =
-            't0068lQAAAIkK/J98hFlGuR23+WYADkNElcVBif3GpdrcU/KkcU4eEvYHEopVEHGmxqEF2L+XTTJ/DNFYnrKm5RQlvCXNAX8=';
+        Dynamsoft.DCP.CodeParser.license = 'DLS2eyJvcmdhbml6YXRpb25JRCI6IjIwMDAwMSJ9';
         // Initializes and uses the SDK
         (async () => {
             try {
                 let reader = await Dynamsoft.DBR.BarcodeReader.createInstance();
                 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 
-                parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_AUTO);
+                await parser.setCodeFormat(Dynamsoft.DCP.EnumCodeFormat.CF_AUTO);
 
                 // Decode the driver license with BarcodeReader
                 let results = await reader.decode(
@@ -100,13 +99,13 @@ The simplest way to include the SDK is to use either the [jsDelivr](https://jsde
 * jsDelivr
 
     ```html
-    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.2/dist/dcp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.1.0/dist/dcp.js"></script>
     ```
 
 * UNPKG  
 
     ```html
-    <script src="https://unpkg.com/dynamsoft-code-parser@1.0.2/dist/dcp.js"></script>
+    <script src="https://unpkg.com/dynamsoft-code-parser@1.1.0/dist/dcp.js"></script>
     ```
 
 #### Host the SDK yourself
@@ -130,7 +129,7 @@ Options to download the SDK:
 Depending on how you downloaded the SDK and where you put it, you can typically include it like this:
 
 ```html
-<script src="/dynamsoft-code-parser-js-1.0.2/dist/dcp.js"></script>
+<script src="/dynamsoft-code-parser-js-1.1.0/dist/dcp.js"></script>
 ```
 
 or
@@ -148,20 +147,19 @@ Before using the SDK, you need to configure a few things.
 The SDK requires a license to work, use the API `license` to specify the license key.
 
 ```javascript
+//You can visit https://www.dynamsoft.com/customer/license/trialLicense?utm_source=github&product=dcp&package=js to get your own trial license good for 30 days. 
 Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
 ```
 
-Please [contact Dynamsoft Support Team](https://www.dynamsoft.com/Company/Contact.aspx) to obtain a license.
-
 #### Specify the location of the "engine" files
 
-This is usually only required with frameworks like Angular or React, etc. where dbr.js is compiled into another file.
+This is usually only required with frameworks like Angular or React, etc. where dcp.js is compiled into another file.
 
 The purpose is to tell the SDK where to find the engine files (\*.worker.js, \*.wasm.js and \*.wasm, etc.). The API is called `engineResourcePath` :
 
 ```javascript
 //The following code uses the jsDelivr CDN, feel free to change it to your own location of these files
-Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.0.2/dist/";
+Dynamsoft.DCP.CodeParser.engineResourcePath = "https://cdn.jsdelivr.net/npm/dynamsoft-code-parser@1.1.0/dist/";
 ```
 
 ### Interact with the SDK
@@ -213,7 +211,7 @@ The method `parseData()` takes data in three formats: `number[]`, `Uint8Array` a
 parser.parseData(data); //data: number[] | Uint8Array | string
 ```
 
-#### Set encryption key if needed
+<!-- #### Set encryption key if needed
 
 If your input code requires a public key or certificate to help with parsing, please set it up before calling the `parseData()` method.
 
@@ -222,8 +220,8 @@ parser.setCryptoPublicKey(key); //key: string
 // or
 parser.setCertificate(value); //value: Uint8Array | ArrayBuffer | string
 parser.parseData(data); //data: number[] | Uint8Array | string
-```
+``` -->
 
 ## API Documentation
 
-For more information about the APIs of DCP-JS, read [Dynamsoft Code Parser JavaScript Edition API Reference](https://www.dynamsoft.com/code-parser/docs/development/javascript/api-reference/?ver=1.0.2).
+For more information about the APIs of DCP-JS, read [Dynamsoft Code Parser JavaScript Edition API Reference](https://www.dynamsoft.com/code-parser/docs/development/javascript/api-reference/?ver=1.1.0).
