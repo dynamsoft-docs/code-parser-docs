@@ -47,7 +47,7 @@ There are mainly four steps to use a CodeParser, the following takes the JavaScr
 
 1. Initialize license
 
-    Before you begin, you must set up a license that allows you to use DCP. Please [contact Dynamsoft Support Team](https://www.dynamsoft.com/Company/Contact.aspx) to obtain a license.
+    Before you begin, you must set up a license that allows you to use DCP. You can visit https://www.dynamsoft.com/customer/license/trialLicense?utm_source=github&product=dcp&package=js to get your own trial license good for 30 days.
 
 2. Create Code Parser instance
 
