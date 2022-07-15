@@ -13,4 +13,5 @@ needAutoGenerateSidebar: true
 * Development
   * [JavaScript]({{site.javascript}})
 
-* [Release Notes]({{site.release-notes}})
+* Useful resources
+  * [Release Notes]({{site.release-notes}})
