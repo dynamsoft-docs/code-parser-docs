@@ -21,6 +21,9 @@ noTitleIndex: true
 ### Change
 
 * Change `CF_DL_AAMVA_ANSI` to `CF_DL_AAMVA`.
+* Change `RIT_DRIVER_LICENSE_INFO` to `RIT_DRIVER_LICENSE_AAMVA` and `RIT_DRIVER_LICENSE_SOUTH_AFRICA`.
+* Change `RIT_PERSONAL_ID_INFO` to `RIT_PERSONAL_ID`.
+* Change `RIT_VDSNC_INFO` to `RIT_VDSNC`.
 
 ## 1.0.2 (06/08/2022)
 
