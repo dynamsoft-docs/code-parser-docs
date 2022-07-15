@@ -3,7 +3,6 @@ layout: home-page
 title: Dynamsoft Code Parser SDK Documentation
 keywords: Dynamsoft Code Parser, dlr, documentation
 description: Dynamsoft Code Parser SDK Documentation Homepage
-needAutoGenerateSidebar: true
 ---
 
 # Dynamsoft Code Parser Documentation
