@@ -13,7 +13,7 @@ breadcrumbText: Release Note
 
 ## 1.1.0
 
- > First released: 07-19-2022
+ > First released: 07-18-2022
 
 ### Highlights
 
