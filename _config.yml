@@ -51,6 +51,7 @@ dwt_icon: /code-parser/docs/assets/img-icon/icon-dwt.svg
 dnt_icon: /code-parser/docs/assets/img-icon/icon-dnt.svg
 
 release-notes: /code-parser/docs/release-notes/
+data-format: /code-parser/docs/data-format/
 license-activation: /code-parser/docs/license-activation/
 
 useVersionTree: true
