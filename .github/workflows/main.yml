@@ -45,7 +45,7 @@ jobs:
           cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDoc/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDoc/_config.yml
-          cd DCPDoc && bundle exec jekyll build --incremental && cd ..
+          cd DCPDoc && bundle exec jekyll build
           python3 /home/ubuntu/ftp.py /home/ubuntu/DCPDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
 
   Build-Preview:
@@ -74,7 +74,7 @@ jobs:
           cd Docs-Template-Repo-preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-preview/* ./DCPDocPreview/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDocPreview/_config.yml
-          cd DCPDocPreview && bundle exec jekyll build --incremental && cd ..
+          cd DCPDocPreview && bundle exec jekyll build
 
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
