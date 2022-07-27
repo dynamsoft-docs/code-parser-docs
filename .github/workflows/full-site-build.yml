@@ -21,12 +21,19 @@ jobs:
       #- uses: actions/checkout@v2
 
       # Runs a set of commands using the runners shell
-      - name: Build and Upload to Prod Env
+      - name: clear space
+        run: |
+          cd /home/ubuntu 
+          [ -d DCPDoc ] && rm -rf DCPDoc
+          [ -d code-parser-docs ] && rm -rf code-parser-docs
+          [ -d Docs-Template-Repo-Preview ] && rm -rf Docs-Template-Repo-Preview
+          cd /home/ubuntu
+
+      - name: Build the full site - main
         run: |
           cd /home/ubuntu
-          [ -d DCPDoc ] && rm -rf DCPDoc
-          [ ! -d DCPDoc ] && mkdir -p DCPDoc
-          [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git
+          mkdir -p DCPDoc
+          [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs
           [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
           cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
           cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDoc/
@@ -40,13 +47,19 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: clear space
+        run: |
+          cd /home/ubuntu 
+          [ -d DCPDocPreview ] && rm -rf DCPDocPreview
+          [ -d code-parser-docs-preview ] && rm -rf code-parser-docs-preview
+          [ -d Docs-Template-Repo-Preview ] && rm -rf Docs-Template-Repo-Preview
+          cd /home/ubuntu
 
       # Runs a set of commands using the runners shell
       - name: Build the site
         run: |
           cd /home/ubuntu
-          [ -d DCPDocPreview ] && rm -rf DCPDocPreview
-          [ ! -d DCPDocPreview ] && mkdir -p DCPDocPreview
+          mkdir -p DCPDocPreview
           [ ! -d code-parser-docs-preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-preview
           [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
           cd code-parser-docs-preview && git pull && cd .. && cp -rfp ./code-parser-docs-preview/* ./DCPDocPreview/
