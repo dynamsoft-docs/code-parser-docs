@@ -27,28 +27,24 @@ jobs:
       #- uses: actions/checkout@v2
 
       # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: clear space
         run: |
-          cd /home/ubuntu
+          cd /home/ubuntu 
           [ -d DCPDoc ] && rm -rf DCPDoc
           [ -d code-parser-docs ] && rm -rf code-parser-docs
-          [ ! -d DCPDoc ] && mkdir -p DCPDoc
-          [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git
-          [ ! -d Docs-Template-Repo ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo
+          [ -d Docs-Template-Repo-Preview ] && rm -rf Docs-Template-Repo-Preview
+          cd /home/ubuntu
+
+      - name: Build the site
+        run: |
+          cd /home/ubuntu
+          mkdir -p DCPDoc
+          [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs
+          [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
           cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
-          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDoc/
+          cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDoc/
           cd DCPDoc && bundle exec jekyll build --incremental
-          #python3 /home/ubuntu/ftp.py /home/ubuntu/DCPDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
-          
-      - name: Sync files to Prod
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: ${{ secrets.FTP_DYNAMSOFT_LOCAL_SERVER }}
-          username: ${{ secrets.FTP_DYNAMSOFT_LOCAL_USER }}
-          password: ${{ secrets.FTP_DYNAMSOFT_LOCAL_PASSWORD }}
-          port: 21 
-          local-dir: /home/ubuntu/DCPDoc/_site/
-          server-dir: /www.dynamsoft.com/code-parser/docs/
+          python3 /home/ubuntu/ftp.py /home/ubuntu/DCPDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
 
   Build-Preview:
     if: ${{ github.ref == 'refs/heads/preview' }}
