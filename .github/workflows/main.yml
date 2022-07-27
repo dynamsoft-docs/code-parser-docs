@@ -34,6 +34,7 @@ jobs:
           [ -d code-parser-docs ] && rm -rf code-parser-docs
           [ ! -d DCPDoc ] && mkdir -p DCPDoc
           [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git
+          [ ! -d Docs-Template-Repo ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo
           cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
           cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDoc/
           cd DCPDoc && bundle exec jekyll build --incremental
