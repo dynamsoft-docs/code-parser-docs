@@ -42,7 +42,7 @@ jobs:
           [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs
           [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
           cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
-          cd Docs-Template-Repo && git pull && cd .. && cp -rfp ./Docs-Template-Repo/* ./DCPDoc/
+          cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDoc/
           sed -i -e "1,3s/blob\/main$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDoc/_config.yml
           cd DCPDoc && bundle exec jekyll build --incremental && cd ..
