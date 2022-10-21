@@ -21,7 +21,7 @@ Dynamsoft Code Parser 1.1.0 version supports parsing two new types:
 
 * Driver license with magnetic stripes 
 
-    The PDF417 barcodes on driver licenses with magnetic stripes, which follow the AAMVA Magnetic Stripe standard, are capable to get parsed. Such as a combined BC Driver's License and Services Card（with a Magnetic Stripe on it）.
+    The PDF417 barcodes on driver licenses with magnetic stripes, which follow the AAMVA Magnetic Stripe standard, are capable to get parsed. Such as a combined BC Driver's License and Services Card (with a Magnetic Stripe on it).
 
 * Aadhaar Card in India
 

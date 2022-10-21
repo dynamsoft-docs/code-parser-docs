@@ -96,7 +96,7 @@ setCodeFormat(format: EnumCodeFormat): Promise<void>
 
 ### Parameters
 
-`format`: specifies the code’s format represented by EnumCodeFormat.
+`format`: specifies the code's format represented by EnumCodeFormat.
 
 ### Return Value
 
@@ -159,7 +159,7 @@ A promise that resolves when the operation succeeds.
 ```js
 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 parser.setCryptoPublicKey(YOUR-PUBLIC-KEY);
-// … parse …
+//  parse 
 ```
 
 ## setCertificate
@@ -183,7 +183,7 @@ A promise that resolves when the operation succeeds.
 ```js
 let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 parser.setCertificate(YOUR-CERTIFICATE);
-// … parse …
+//  parse 
 ```
 
 ### See Also

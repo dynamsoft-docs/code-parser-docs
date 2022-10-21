@@ -28,7 +28,7 @@ In this guide, you will learn step by step on how to integrate the DCP-JS SDK in
 
 ## Hello World - Simplest Implementation
 
-Let’s start with the "Hello World" example of the SDK which demonstrates how to use the minimum code to enable a web page to parse codes into readable info.
+Let's start with the "Hello World" example of the SDK which demonstrates how to use the minimum code to enable a web page to parse codes into readable info.
 
 The complete code of the "Hello World" example is shown below:
 
@@ -82,7 +82,7 @@ The complete code of the "Hello World" example is shown below:
 
 * `createInstance()`: This method creates a CodeParser object.
 
-* `setCodeFormat`: This method sets the code’s format before parsing.
+* `setCodeFormat`: This method sets the code's format before parsing.
 
 * `parseData`: This method parses the code.
 
@@ -178,7 +178,7 @@ try {
 }
 ```
 
-Tip: When creating a CodeParser object within a function which may be called more than once, it’s best to use a “helper” variable to avoid double creation such as pParser in the following code
+Tip: When creating a CodeParser object within a function which may be called more than once, it's best to use a "helper" variable to avoid double creation such as pParser in the following code
 
 ```javascript
 Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
