@@ -17,7 +17,7 @@ For the initial release, DCP is only available for web applications as "DCP Java
 
 * AAMVA driver's license
 
-Countries covered: USA, Canada, South Africa.
+Countries covered: USA, Canada.
 
 All versions of the AAMVA Driver's License/Identification Specification used in the US and Canada are supported. The PDF417 barcodes on driver licenses with magnetic stripes, which follow the AAMVA Magnetic Stripe standard, are capable to get parsed.
 
