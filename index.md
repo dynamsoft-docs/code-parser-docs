@@ -11,6 +11,7 @@ description: Dynamsoft Code Parser SDK Documentation Homepage
 
 * Development
   * [JavaScript]({{site.javascript}})
+  * [C++]({{site.cpp}})
 
 * Useful resources
   * [Release Notes]({{site.release-notes}})

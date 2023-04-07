@@ -11,30 +11,12 @@ parameters-reference: /code-parser/docs/parameters/reference/
 
 development: /code-parser/docs/development/
 
-c-cplusplus: /code-parser/docs/development/c-cplusplus/
-c-cplusplus-api-reference: /code-parser/docs/development/c-cplusplus/api-reference/
+cpp: /code-parser/docs/development/cplusplus/
+cpp_api: /code-parser/docs/development/cplusplus/api-reference/
+cpp_class: /code-parser/docs/development/cplusplus/api-reference/class/
+cpp_enum: /code-parser/docs/development/cplusplus/api-reference/enum/
+cpp_release_notes: /code-parser/docs/development/cplusplus/release-notes/
 
-c-functions: /code-parser/docs/development/c-cplusplus/api-reference/c-functions/
-cpp-methods: /code-parser/docs/development/c-cplusplus/api-reference/c-code-parser-class/
-c-cplusplus-structs: /code-parser/docs/development/c-cplusplus/api-reference/structs/
-
-c-cplusplus-release-notes: /code-parser/docs/development/c-cplusplus/release-notes/
-
-android: /code-parser/docs/development/android/
-android-api: /code-parser/docs/development/android/api-reference/
-android-release-notes: /code-parser/docs/development/android/release-notes/
-
-dotnet: /code-parser/docs/development/dotnet/
-dotnet_api: /code-parser/docs/development/dotnet/api-reference/
-dotnet_release_notes: /code-parser/docs/development/dotnet/release-notes/
-
-objectivec-swift: /code-parser/docs/development/objectivec-swift/
-objectivec-swift-api: /code-parser/docs/development/objectivec-swift/api-reference/
-objectivec-swift-release-notes: /code-parser/docs/development/objectivec-swift/release-notes/
-
-java: /code-parser/docs/development/java/
-java-api: /code-parser/docs/development/java/api-reference/
-java-release-notes: /code-parser/docs/development/java/release-notes/
 
 javascript: /code-parser/docs/development/javascript/
 javascript-api: /code-parser/docs/development/javascript/api-reference/
@@ -51,8 +33,7 @@ dwt_icon: /code-parser/docs/assets/img-icon/icon-dwt.svg
 dnt_icon: /code-parser/docs/assets/img-icon/icon-dnt.svg
 
 release-notes: /code-parser/docs/release-notes/
-data-format: /code-parser/docs/data-format/
-license-activation: /code-parser/docs/license-activation/
+code_types: /code-parser/docs/code-types/
 
 useVersionTree: true
 

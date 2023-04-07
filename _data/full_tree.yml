@@ -1,8 +1,7 @@
 tree_file_list:
     - sidelist-full-tree.html
-    - sidelist-introduction.html
+    - sidelist-code-types.html
     - sidelist-development.html
-    - sidelist-useful.html
+    - sidelist-introduction.html
     - sidelist-release-notes.html
-    - sidelist-license-activation.html
-
+    - sidelist-useful.html
