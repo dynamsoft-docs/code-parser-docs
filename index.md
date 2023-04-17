@@ -9,9 +9,24 @@ description: Dynamsoft Code Parser SDK Documentation Homepage
 
 * [Introduction]({{site.introduction}})
 
-* Development
-  * [JavaScript]({{site.javascript}})
-  * [C++]({{site.cpp}})
+<hr>
+DEVELOPMENT
+<hr>
 
-* Useful resources
-  * [Release Notes]({{site.release-notes}})
+* [Web (Client Side)]({{ site.js }})
+* Server / Desktop
+  * [C++]({{ site.cpp }})
+
+<hr>
+UNDERSTANDING DCP
+<hr>
+
+* [Parameter Organization]({{ site.parameters }}file/index.html)
+* [Parameter Reference]({{ site.parameters_reference }})
+
+<hr>
+USEFUL RESOURCES
+<hr>
+
+* [Release Notes]({{ site.release_notes }})
+* [License Activation]({{ site.license }}license-activation.html)

@@ -3,5 +3,9 @@ tree_file_list:
     - sidelist-code-types.html
     - sidelist-development.html
     - sidelist-introduction.html
+    - sidelist-license.html
+    - sidelist-parameters-organization.html
+    - sidelist-parameters-reference.html
     - sidelist-release-notes.html
     - sidelist-useful.html
+    - sidelist-understanding.html
