@@ -5,10 +5,10 @@ name: CI
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push events but only for the main branch
-  # push:
-  #   branches: 
+   push:
+     branches: 
   #   - main 
-  #   - preview 
+     - preview 
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -39,12 +39,21 @@ jobs:
         run: |
           cd /home/ubuntu
           mkdir -p DCPDoc
-          [ ! -d code-parser-docs ] && git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs
-          [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
-          cd code-parser-docs && git pull && cd .. && cp -rfp ./code-parser-docs/* ./DCPDoc/
-          cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDoc/
+          git clone --depth 1 https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs
+          git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
+          cp -rfp ./code-parser-docs/* ./DCPDoc/
+          cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDoc/
           cd DCPDoc && bundle exec jekyll build
-          python3 /home/ubuntu/ftp.py /home/ubuntu/DCPDoc/_site/ ./www.dynamsoft.com/code-parser/docs/ prod
+
+      - name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_DYNAMSOFT_LOCAL_SERVER }}
+          username: ${{ secrets.FTP_DYNAMSOFT_LOCAL_USER }}
+          password: ${{ secrets.FTP_DYNAMSOFT_LOCAL_PASSWORD }}
+          port: 21 
+          local-dir: /home/ubuntu/DCPDoc/_site/
+          server-dir: /www.dynamsoft.com/code-parser/docs/core/
 
   Build-Preview:
     if: ${{ github.ref == 'refs/heads/preview' }}
@@ -66,11 +75,11 @@ jobs:
         run: |
           cd /home/ubuntu
           mkdir -p DCPDocPreview
-          [ ! -d code-parser-docs-preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-preview
-          [ ! -d Docs-Template-Repo-Preview ] && git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
-          cd code-parser-docs-preview && git pull && cd .. && cp -rfp ./code-parser-docs-preview/* ./DCPDocPreview/
-          cd Docs-Template-Repo-Preview && git pull && cd .. && cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDocPreview/
-          sed -i -e "1,3s/blob\/main$/blob\/preview/" \
+          git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-preview
+          git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
+          cp -rfp ./code-parser-docs-preview/* ./DCPDocPreview/
+          cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDocPreview/
+          sed -i -e "1,3s/blob\/master$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDocPreview/_config.yml
           cd DCPDocPreview && bundle exec jekyll build
 
@@ -82,4 +91,4 @@ jobs:
           password: ${{ secrets.FTP_TEST_SITE_PASSWORD }}
           port: 7500 
           local-dir: /home/ubuntu/DCPDocPreview/_site/
-          server-dir: /www.dynamsoft.com/code-parser/docs/          
+          server-dir: /www.dynamsoft.com/code-parser/docs/core/          
