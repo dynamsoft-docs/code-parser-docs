@@ -10,15 +10,17 @@ cpp: /code-parser/docs/server/programming/cplusplus/
 cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
 
 
-javascript: /code-parser/docs/js/programming/javascript/
-javascript_release_notes: /code-parser/docs/js/programming/javascript/release-notes/
+js: /code-parser/docs/js/programming/javascript/
+js_release_notes: /code-parser/docs/js/programming/javascript/release-notes/
 
 release-notes: /code-parser/docs/core/release-notes/
 code_types: /code-parser/docs/core/code-types/
 
 enumerations: /capture-vision/docs/core/enums/
 parameters: /capture-vision/docs/core/parameters/
+parameters_dcp: /code-parser/docs/core/parameters/
 parameters_reference: /capture-vision/docs/core/parameters/reference/
+parameters_reference_dcp: /code-parser/docs/core/parameters/reference/
 license: /capture-vision/docs/core/license/
 
 

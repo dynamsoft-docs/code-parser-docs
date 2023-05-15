@@ -11,7 +11,7 @@ noTitleIndex: true
 # Supported Code Types
 
 * [Machine Readable Travel Documents](mrtd.md)
-* [North America DL/ID](aamva-dl-id.md)
+* [North America Driver License and Identification](aamva-dl-id.md)
 * [South Africa Driver License](sa-dl.md)
 * [Aadhaar](aadhaar.md)
 * [Vehicle Identification Number](vin.md)
