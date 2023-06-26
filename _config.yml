@@ -10,8 +10,8 @@ cpp: /code-parser/docs/server/programming/cplusplus/
 cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
 
 
-js: /code-parser/docs/js/programming/javascript/
-js_release_notes: /code-parser/docs/js/programming/javascript/release-notes/
+js: /code-parser/docs/web/programming/javascript/
+js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
 
 release-notes: /code-parser/docs/core/release-notes/
 code_types: /code-parser/docs/core/code-types/
