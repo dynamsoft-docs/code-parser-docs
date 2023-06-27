@@ -12,7 +12,6 @@ noTitleIndex: true
 
 ## Overview
 
-Dynamsoft Code Parser supports all versions of MRTD and specifies five code types:
 The fields parsed from the South African driver's license are currently limited to some personal information, while the full information will be parsed in a future release.
 
 
@@ -20,7 +19,7 @@ The fields parsed from the South African driver's license are currently limited 
 
 ## Fields
 
-The exposed fields for code type `VIN` is defined as below:
+The exposed fields for code type `SOUTH_AFRICA_DL` is defined as below:
 
 | Field Name | Description |
 | ---------- | ----------- |
