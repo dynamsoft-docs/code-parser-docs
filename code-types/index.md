@@ -12,6 +12,6 @@ noTitleIndex: true
 
 * [Machine Readable Travel Documents](mrtd.md)
 * [North America Driver License and Identification](aamva-dl-id.md)
-* [South Africa Driver License](sa-dl.md)
+* [South Africa Driver License](za-dl.md)
 * [Aadhaar](aadhaar.md)
 * [Vehicle Identification Number](vin.md)

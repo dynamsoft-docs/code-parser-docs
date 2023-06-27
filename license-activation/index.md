@@ -31,6 +31,7 @@ The following shows how to set the license in the code.
 
 <div class="sample-code-prefix template2"></div>
    >- C++
+   >- JavaScript
    >
 >
 ```cpp
@@ -40,4 +41,9 @@ The following shows how to set the license in the code.
     if (errorCode != EC_OK)
         cout << "License initialization error: " << errorMsg << endl;
     // add further process
+```
+>
+```javascript
+Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
+let parser = await Dynamsoft.DCP.CodeParser.createInstance();
 ```
