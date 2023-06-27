@@ -29,4 +29,4 @@ USEFUL RESOURCES
 <hr>
 
 * [Release Notes]({{ site.release_notes }})
-* [License Activation]({{ site.license }}license-activation.html)
+* [License Initialization]({{ site.license_activation }}index.html)
