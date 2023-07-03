@@ -22,6 +22,10 @@ Dynamsoft Code Parser supports all versions of MRTD and specifies five code type
 * MRTD_TD3_PASSPORT
 * MRTD_TD3_VISA
 
+In addition, Dynamsoft Code Parser also supports the following non-ICAO standard:
+
+* MRTD_TD2_FRENCH_ID
+
 ## Fields
 
 The exposed fields for each code type is defined as below:
@@ -174,3 +178,30 @@ The exposed fields for each code type is defined as below:
 | expiryDay | Day of expiry |
 | checkDigitForExpiryDate | Check digit to verify the data of field `dateOfExpiry` |
 | optionalData| Optional data elements for use of the issuing State |
+
+
+### MRTD_TD2_FRENCH_ID Fields
+
+| Field Name | Description |
+| ---------- | ----------- |
+| CodeType | Code type, always has value "MRTD_TD2_FRENCH_ID" |
+| line1 | The first line of the Machine Readable Zone data |
+| documentCode| Document code |
+| issuingState| Issuing state or organization |
+| lastName | Card holder's last name |
+| departmentOfIssuance| Department of issuance |
+| officeOfIssuance | Office of issuance |
+| line2| The second line of the Machine Readable Zone data |
+| idNumber| The document number given by the issuing State or organization |
+| yearOfIssuance |  Year of issuance |
+| monthOfIssuance |  Month of issuance |
+| managementCenterSign | Assigned by the Management Center in chronological order in relation to the place of issue and the date of application |
+| checkDigitForIdNumber| Check digit to verify the data of field `idNumber` |
+| givenNames |  First name followed by given names |
+| dateOfBirth | Date of birth |
+| birthYear |  Year of birth |
+| birthMonth |  Month of birth |
+| birthDay |  Day of birth |
+| checkDigitForBirthDate |  Check digit to verify the data of field `dateOfBirth` |
+| sex | Sex |
+| compositeCheckDigit| Composite check digit |
