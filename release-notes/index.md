@@ -13,7 +13,7 @@ breadcrumbText: Release Note
 
 ## 2.0.0
 
- > First released: 06-29-2023
+ > First released: 07-04-2023
 
 ### Highlights
 
@@ -21,7 +21,7 @@ breadcrumbText: Release Note
 
 | Versions | Available Editions |
 |---|---|
-| 2.0.0 | [C++]({{ site.cpp_release_notes}}cpp-2.html#200-06292023) |
+| 2.0.0 | [C++]({{ site.cpp_release_notes}}cpp-2.html#200-07042023) |
 
 ## 1.1.0
 
