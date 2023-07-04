@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push events but only for the main branch
   push:
     branches: 
-  #   - main 
+     - main 
      - preview 
 
   # Allows you to run this workflow manually from the Actions tab
@@ -68,7 +68,7 @@ jobs:
           cd /home/ubuntu 
           [ -d DCPDocPreview ] && rm -rf DCPDocPreview
           [ -d code-parser-docs-preview ] && rm -rf code-parser-docs-preview 
-          [ -d Docs-Template-Repo-Preview-DCV2 ] && rm -rf Docs-Template-Repo-Preview-DCV2
+          [ -d Docs-Template-Repo-Preview ] && rm -rf Docs-Template-Repo-Preview
           cd /home/ubuntu
 
       - name: Build the site
@@ -76,9 +76,9 @@ jobs:
           cd /home/ubuntu
           mkdir -p DCPDocPreview
           git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/code-parser-docs.git code-parser-docs-preview
-          git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview-DCV2
+          git clone --depth 1 --branch preview https://github.com/dynamsoft-docs/Docs-Template-Repo.git Docs-Template-Repo-Preview
           cp -rfp ./code-parser-docs-preview/* ./DCPDocPreview/
-          cp -rfp ./Docs-Template-Repo-Preview-DCV2/* ./DCPDocPreview/
+          cp -rfp ./Docs-Template-Repo-Preview/* ./DCPDocPreview/
           sed -i -e "1,3s/blob\/master$/blob\/preview/" \
           -e "1,3s/blob\/main$/blob\/preview/" /home/ubuntu/DCPDocPreview/_config.yml
           cd DCPDocPreview && bundle exec jekyll build
