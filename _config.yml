@@ -1,64 +1,57 @@
 repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs/blob/main
-repository: Dynamsoft/code-parser-docs
-docFullPath: https://www.dynamsoft.com/code-parser/docs
-firstLevelUrl: /code-parser/docs/
-docHomePage: /code-parser/docs/introduction/
+repository: dynamsoft-docs/code-parser-docs
+docFullPath: https://www.dynamsoft.com/code-parser/docs/core
+firstLevelUrl: /code-parser/docs/core/
+docHomePage: /code-parser/docs/core/introduction/
 
-introduction: /code-parser/docs/introduction/
-parameters: /code-parser/docs/parameters/
-enumerations: /code-parser/docs/parameters/enum/
-parameters-reference: /code-parser/docs/parameters/reference/
+introduction: /code-parser/docs/core/introduction/
 
-development: /code-parser/docs/development/
+cpp: /code-parser/docs/server/programming/cplusplus/
+cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
 
-c-cplusplus: /code-parser/docs/development/c-cplusplus/
-c-cplusplus-api-reference: /code-parser/docs/development/c-cplusplus/api-reference/
 
-c-functions: /code-parser/docs/development/c-cplusplus/api-reference/c-functions/
-cpp-methods: /code-parser/docs/development/c-cplusplus/api-reference/c-code-parser-class/
-c-cplusplus-structs: /code-parser/docs/development/c-cplusplus/api-reference/structs/
+js: /code-parser/docs/web/programming/javascript/
+js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
 
-c-cplusplus-release-notes: /code-parser/docs/development/c-cplusplus/release-notes/
+release_notes: /code-parser/docs/core/release-notes/
+code_types: /code-parser/docs/core/code-types/
 
-android: /code-parser/docs/development/android/
-android-api: /code-parser/docs/development/android/api-reference/
-android-release-notes: /code-parser/docs/development/android/release-notes/
+enumerations: /capture-vision/docs/core/enums/
+parameters: /capture-vision/docs/core/parameters/
+parameters_dcp: /code-parser/docs/core/parameters/
+parameters_reference: /capture-vision/docs/core/parameters/reference/
+parameters_reference_dcp: /code-parser/docs/core/parameters/reference/
+license_activation: /code-parser/docs/core/license-activation/
 
-dotnet: /code-parser/docs/development/dotnet/
-dotnet_api: /code-parser/docs/development/dotnet/api-reference/
-dotnet_release_notes: /code-parser/docs/development/dotnet/release-notes/
 
-objectivec-swift: /code-parser/docs/development/objectivec-swift/
-objectivec-swift-api: /code-parser/docs/development/objectivec-swift/api-reference/
-objectivec-swift-release-notes: /code-parser/docs/development/objectivec-swift/release-notes/
-
-java: /code-parser/docs/development/java/
-java-api: /code-parser/docs/development/java/api-reference/
-java-release-notes: /code-parser/docs/development/java/release-notes/
-
-javascript: /code-parser/docs/development/javascript/
-javascript-api: /code-parser/docs/development/javascript/api-reference/
-javascript-api-enum: /code-parser/docs/development/javascript/api-reference/enum/
-javascript-api-interface: /code-parser/docs/development/javascript/api-reference/interface/
-javascript-release-notes: /code-parser/docs/development/javascript/release-notes/
-
-assets: /code-parser/docs/assets/
-edit_icon: /code-parser/docs/assets/img-icon/edit-icon.png
-smile_icon: /code-parser/docs/assets/img-icon/icon-smile.png
-sad_icon: /code-parser/docs/assets/img-icon/icon-sad.png
-dbr_icon: /code-parser/docs/assets/img-icon/icon-dbr.svg
-dwt_icon: /code-parser/docs/assets/img-icon/icon-dwt.svg
-dnt_icon: /code-parser/docs/assets/img-icon/icon-dnt.svg
-
-release-notes: /code-parser/docs/release-notes/
-data-format: /code-parser/docs/data-format/
-license-activation: /code-parser/docs/license-activation/
+assets: /code-parser/docs/core/assets/
+edit_icon: /code-parser/docs/core/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs/core/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs/core/assets/img-icon/icon-sad.png
 
 useVersionTree: true
 
-baseurl: "/code-parser/docs"
+baseurl: "/code-parser/docs/core"
 plugins:
   - jemoji
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default-layout"
+      noTitleIndex: true
+      needAutoGenerateSidebar: true
+      needGenerateH3Content: true
+  - scope: 
+      path: "" 
+    values: 
+      docRootName: "Code Parser" 
+      docHomePage: "/code-parser/docs/core/introduction/"
+  - scope:
+      path: "Hide_Tree_Page.html"
+    values:
+      sitemap: false
 
 url: "https://www.dynamsoft.com" # sitemap root
 
