@@ -35,6 +35,8 @@ baseurl: "/code-parser/docs/core"
 plugins:
   - jemoji
 
+edition: desktop
+
 defaults:
   - scope:
       path: ""

@@ -3,7 +3,7 @@ title: Dynamsoft Code Parser Parameter Reference - Main Page
 description: Dynamsoft Code Parser Parameter Reference - Main Page
 keywords: parameter reference, parameters
 needAutoGenerateSidebar: false
-permalink: /parameters/reference/index.html
+permalink: /parameters/reference/index-v2.0.10.html
 ---
 
 # Parameter Reference
@@ -15,7 +15,7 @@ permalink: /parameters/reference/index.html
 | [`ImageROIProcessingNameArray`]({{ site.parameters_reference }}capture-vision-template/image-roi-processing-name-array.md) | Defines the collection of image ROI processing object names, used to refer to the `TargetROIDef` objects. |
 | [`ImageSourceName`]({{ site.parameters_reference }}capture-vision-template/image-source-name.md) | Indicates the input source name, used to refer to the `ImageSource` object. |
 | [`MaxParallelTasks`]({{ site.parameters_reference }}capture-vision-template/max-parallel-tasks.md) | Defines the maximum number of parallel tasks for the DCV runtime. |
-| [`OutputOriginalImage`]({{ site.parameters_reference }}capture-vision-template/output-original-Image.md) | Indicates whether DCV finally outputs the original input image. |
+| [`OutputRawImage`]({{ site.parameters_reference }}capture-vision-template/output-raw-Image.md) | Indicates whether DCV finally outputs the original input image. |
 | [`SemanticProcessingNameArray`]({{ site.parameters_reference }}capture-vision-template/semantic-processing-name-array.md) | Represents the collection of semantic-processing object names, used to refer to the `SematicProcessing` objects. |
 | [`Timeout`]({{ site.parameters_reference }}capture-vision-template/timeout.md) | Defines the maximum amount of time (in milliseconds) that should be spent processing each image or frame. |
 
