@@ -3,7 +3,6 @@ title: Dynamsoft Code Parser Parameter Reference - Main Page
 description: Dynamsoft Code Parser Parameter Reference - Main Page
 keywords: parameter reference, parameters
 needAutoGenerateSidebar: false
-permalink: /parameters/reference/index-v2.0.10.html
 ---
 
 # Parameter Reference
