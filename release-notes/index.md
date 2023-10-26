@@ -21,9 +21,9 @@ breadcrumbText: Release Note
 
 | Versions | Available Editions |
 |---|---|
-| 2.0.20 | [C++]({{ site.cpp_release_notes}}cpp-2.html#2020-10262023) |
-| 2.0.10 | [C++]({{ site.cpp_release_notes}}cpp-2.html#2010-08082023) |
-| 2.0.0 | [C++]({{ site.cpp_release_notes}}cpp-2.html#200-07042023) |
+| 2.0.20 | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.20#2020-10262023){:target="_blank"} |
+| 2.0.10 | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.10#2010-08082023){:target="_blank"} |
+| 2.0.0 | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.0#200-07042023){:target="_blank"} |
 
 ## 1.1.0
 
