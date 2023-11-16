@@ -21,8 +21,8 @@ DEVELOPMENT
 UNDERSTANDING DCP
 <hr>
 
-* [Parameter Organization]({{ site.parameters }}file/index.html)
-* [Parameter Reference]({{ site.parameters_reference }})
+* [Parameter Organization]({{ site.dcv_parameters }}file/index.html)
+* [Parameter Reference]({{ site.dcp_parameters_reference }})
 
 <hr>
 USEFUL RESOURCES

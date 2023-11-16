@@ -15,13 +15,13 @@ js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
 
 release_notes: /code-parser/docs/core/release-notes/
 code_types: /code-parser/docs/core/code-types/
-
-enumerations: /capture-vision/docs/core/enums/
-parameters: /capture-vision/docs/core/parameters/
-parameters_dcp: /code-parser/docs/core/parameters/
-parameters_reference: /capture-vision/docs/core/parameters/reference/
-parameters_reference_dcp: /code-parser/docs/core/parameters/reference/
 license_activation: /code-parser/docs/core/license-activation/
+
+dcp_parameters: /code-parser/docs/core/parameters/
+dcp_parameters_reference: /code-parser/docs/core/parameters/reference/
+
+dcv_parameters: /capture-vision/docs/core/parameters/
+dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
 
 
 assets: /code-parser/docs/core/assets/
