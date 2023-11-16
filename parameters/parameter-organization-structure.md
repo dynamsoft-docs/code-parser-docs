@@ -139,7 +139,7 @@ This allows you to create a new parameter template that inherits most of its con
 
 ## Parameter Organization when Using Dynamsoft Code Parser Independently
 
-When using DCP out of DCV framework，the parameters are organized in a `CodeParserTaskSettingOptions` which defines a group of [`CodeParserTaskSetting`]({{ site.parameters }}file/task-settings/code-parser-task-settings.html) objects shown as below.
+When using DCP out of DCV framework，the parameters are organized in a `CodeParserTaskSettingOptions` which defines a group of [`CodeParserTaskSetting`]({{ site.dcv_parameters }}file/task-settings/code-parser-task-settings.html) objects shown as below.
 
 ```json
 {
