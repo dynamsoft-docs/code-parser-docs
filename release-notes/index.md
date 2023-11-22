@@ -43,7 +43,7 @@ Dynamsoft Code Parser 1.1.0 version supports parsing two new types:
 
 | Versions | Available Editions |
 |---|---|
-| 1.1.0 | [JavaScript]({{ site.js_release_notes}}js-1.html) |
+| 1.1.0 | [JavaScript]({{ site.js_release_notes}}js-1.html){:target="_blank"} |
 
 ## 1.0.2
 
@@ -61,4 +61,4 @@ Dynamsoft Code Parser 1.0.2 version supports parsing code from driver license an
 
 | Versions | Available Editions |
 |---|---|
-| 1.0.2 | [JavaScript]({{ site.js_release_notes}}js-1.html) |
+| 1.0.2 | [JavaScript]({{ site.js_release_notes}}js-1.html){:target="_blank"} |
