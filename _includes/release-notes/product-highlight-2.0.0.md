@@ -1,7 +1,6 @@
-
-* `DynamsoftCodeParser` SDK has been revamped to integrate with `DynamsoftCaptureVision (DCV)` architecture, which is newly established to aggregate the features of functional products powered by Dynamsoft. The features are designed to be pluggable, customizable and interactable. In addition, the functional products share the computation so that their processing speed is much higher than working individually.
-* Added C++ Edition. With this new edition, developers can effortlessly integrate code parsing capabilities into their C++ applications.
-* Added supports to parse following code types:
+* The `DynamsoftCodeParser` SDK has been revamped to integrate with the newly established [`DynamsoftCaptureVision (DCV)`](https://www.dynamsoft.com/capture-vision/docs/core/architecture/index.html) architecture.
+* Introduces the C++ edition which allows developers to effortlessly integrate code parsing capabilities into their C++ applications.
+* The definition of a code type is now associated with a specific coding standard. These are the supported code types in version 2.0.0:
   * [MRTD_TD1_ID]({{ site.code_types }}mrtd.html)
   * [MRTD_TD2_ID]({{ site.code_types }}mrtd.html)
   * [MRTD_TD2_VISA]({{ site.code_types }}mrtd.html)
@@ -12,4 +11,3 @@
   * [AAMVA_DL_ID_WITH_MAG_STRIPE]({{ site.code_types }}aamva-dl-id.html)
   * [AADHAAR]({{ site.code_types }}aadhaar.html)
   * [SOUTH_AFRICA_DL]({{ site.code_types }}za-dl.html)
-
