@@ -53,6 +53,7 @@ As of current version, DCP is available for web and server applications as "DCP 
 |-----------|-----------|
 | Web | JavaScript |
 | Server | C++ |
+| Mobile | Java/Kotlin/Objective-C/Swift |
 
 > Future versions will support more platforms, such as Android/Mobile, etc.
 

@@ -19,11 +19,11 @@ breadcrumbText: Release Note
 
 {%- include release-notes/product-highlight-2.0.0.md -%}
 
-| Versions | Available Editions |
-|---|---|
-| 2.0.20 | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.20#2020-10262023){:target="_blank"} |
-| 2.0.10 | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.10#2010-08082023){:target="_blank"} |
-| 2.0.0 | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.0#200-07042023){:target="_blank"} |
+| Versions | Available Editions                                                                      |
+| -------- | --------------------------------------------------------------------------------------- |
+| 2.0.20   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.20#2020-10262023){:target="_blank"} / [Android]({{ site.dcp_android}}release-notes/android-2.html#2020-12072023){:target="_blank"} / [iOS]({{ site.dcp_ios}}release-notes/ios-2.html#2020-12072023){:target="_blank"} |
+| 2.0.10   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.10#2010-08082023){:target="_blank"} |
+| 2.0.0    | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.0#200-07042023){:target="_blank"}   |
 
 ## 1.1.0
 
@@ -31,19 +31,19 @@ breadcrumbText: Release Note
 
 ### Highlights
 
-Dynamsoft Code Parser 1.1.0 version supports parsing two new types:
+Dynamsoft Code Parser version 1.1.0 supports parsing two new types:
 
 * Driver license with magnetic stripes 
 
-    The PDF417 barcodes on driver licenses with magnetic stripes, which follow the AAMVA Magnetic Stripe standard, are capable to get parsed. Such as a combined BC Driver's License and Services Card (with a Magnetic Stripe on it).
+    PDF417 barcodes on driver's licenses with magnetic stripes can now be parsed (following the AAMVA magnetic stripe standard). For example, a BC driver's license and service card combination (with a magnetic strip on it).
 
 * Aadhaar Card in India
 
-    The normal QR codes or Secure QR codes on eAadhaar, Aadhaar Letter and Aadhaar PVC Card are all capable to be parsed. 
+    Either the normal QR code or the secure QR code on eAadhaar, Aadhaar Letter and Aadhaar PVC cards can now be parsed.
 
-| Versions | Available Editions |
-|---|---|
-| 1.1.0 | [JavaScript]({{ site.js_release_notes}}js-1.html) |
+| Versions | Available Editions                                                  |
+| -------- | ------------------------------------------------------------------- |
+| 1.1.0    | [JavaScript]({{ site.js_release_notes}}js-1.html){:target="_blank"} |
 
 ## 1.0.2
 
@@ -51,7 +51,7 @@ Dynamsoft Code Parser 1.1.0 version supports parsing two new types:
 
 ### Highlights
 
-Dynamsoft Code Parser 1.0.2 version supports parsing code from driver license and COVID-19 vaccination certificate.
+Dynamsoft Code Parser version 1.0.2 supports parsing code from driver license and COVID-19 vaccination certificate.
 
 * Driver license
 
@@ -59,6 +59,6 @@ Dynamsoft Code Parser 1.0.2 version supports parsing code from driver license an
 
     All versions of the AAMVA Driver License/Identification specification used in the USA and in Canada supported. Fields parsed from South Africa driver licenses are currently limited to some personal information.
 
-| Versions | Available Editions |
-|---|---|
-| 1.0.2 | [JavaScript]({{ site.js_release_notes}}js-1.html) |
+| Versions | Available Editions                                                  |
+| -------- | ------------------------------------------------------------------- |
+| 1.0.2    | [JavaScript]({{ site.js_release_notes}}js-1.html){:target="_blank"} |

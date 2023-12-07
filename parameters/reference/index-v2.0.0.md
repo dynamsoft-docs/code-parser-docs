@@ -36,7 +36,7 @@ needAutoGenerateSidebar: false
 | [`DictionaryPath`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/dictionary-path.html) | Sets the path of the dictionary file. |
 | [`StringLengthRange`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/string-length-range.html) | Sets the range of string lengths for concatenated strings of recognized text lines. |
 | [`StringRegExPattern`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/string-regex-pattern.html) | Specifies the regular expression pattern for concatenated strings of recognized text lines. |
-| [TextLineSpecificationNameArray]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/text-line-specification-name-array.html) | Defines the collection of text line specification object names |
+| [`TextLineSpecificationNameArray`]({{ site.dcv_parameters_reference }}label-recognizer-task-settings/text-line-specification-name-array.html) | Defines the collection of text line specification object names |
 
 ## Barcode Reader Task Setting
 
