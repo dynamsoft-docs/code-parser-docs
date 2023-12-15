@@ -1,7 +1,7 @@
 ---
 layout: home-page
 title: Dynamsoft Code Parser SDK Documentation
-keywords: Dynamsoft Code Parser, dlr, documentation
+keywords: Dynamsoft Code Parser, dcp, documentation
 description: Dynamsoft Code Parser SDK Documentation Homepage
 ---
 
