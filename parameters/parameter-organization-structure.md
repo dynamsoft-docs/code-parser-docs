@@ -103,16 +103,16 @@ The following table list the main objects type and description of a complete par
 
 | Object Type | Description |
 | :-- | :-- |
-|  [CaptureVisionTemplate]({{site.parameter}}file/capture-vision-template.html)         |  This is the entry object of a parameter template in DCV. The `Name` parameter represents the name of the parameter template, which serves as its unique identifier.|
-|  [ImageSource]({{site.parameter}}file/image-source.html)                  |  It defines the input for DCV, responsible for providing images to DCV. It can be defined as different image sources, including but not limited to image directories, scanners, cameras, etc.|
-| [TargetROIDef]({{site.parameter}}file/target-roi-definition/index.html)                   |  It is used to specify one or more recognition tasks to be performed on some regions of interest (ROIs) within an image.|
-|  [SemanticProcessing]({{site.parameter}}file/semantic-processing/index.html)            |  It is used to specify one or more code parsing tasks to be performed on text/byte results to help extract human readable information. |
-|  [BarcodeReaderTaskSetting]({{site.parameter}}file/task-settings/barcode-reader-task-settings.html)      |  It is used to configure settings for barcode reading tasks performed on images in DCV. |
-|  [LabelRecognizerTaskSetting]({{site.parameter}}file/task-settings/label-recognizer-task-settings.html)    |  It is used to configure settings for label recognition tasks performed on images in DCV.|
-|  [CodeParserTaskSetting]({{site.parameter}}file/task-settings/code-parser-task-settings.html)         |  It is used to configure code parsing tasks such as passport MRZ, driving license and other user specific tasks in DCV etc.|
-|  [ImageParameter]({{site.parameter}}file/image-parameter.html)              |  It provides various image-processing features to adjust and enhance the input image for better recognition results.|
+|  [CaptureVisionTemplate]({{site.dcv_parameters}}file/capture-vision-template.html)         |  This is the entry object of a parameter template in DCV. The `Name` parameter represents the name of the parameter template, which serves as its unique identifier.|
+|  [ImageSource]({{site.dcv_parameters}}file/image-source.html)                  |  It defines the input for DCV, responsible for providing images to DCV. It can be defined as different image sources, including but not limited to image directories, scanners, cameras, etc.|
+| [TargetROIDef]({{site.dcv_parameters}}file/target-roi-definition/index.html)                   |  It is used to specify one or more recognition tasks to be performed on some regions of interest (ROIs) within an image.|
+|  [SemanticProcessing]({{site.dcv_parameters}}file/semantic-processing/index.html)            |  It is used to specify one or more code parsing tasks to be performed on text/byte results to help extract human readable information. |
+|  [BarcodeReaderTaskSetting]({{site.dcv_parameters}}file/task-settings/barcode-reader-task-settings.html)      |  It is used to configure settings for barcode reading tasks performed on images in DCV. |
+|  [LabelRecognizerTaskSetting]({{site.dcv_parameters}}file/task-settings/label-recognizer-task-settings.html)    |  It is used to configure settings for label recognition tasks performed on images in DCV.|
+|  [CodeParserTaskSetting]({{site.dcv_parameters}}file/task-settings/code-parser-task-settings.html)         |  It is used to configure code parsing tasks such as passport MRZ, driving license and other user specific tasks in DCV etc.|
+|  [ImageParameter]({{site.dcv_parameters}}file/image-parameter.html)              |  It provides various image-processing features to adjust and enhance the input image for better recognition results.|
 
-For more details, please refer to [introduction of the capture vision template]({{ site.parameter }}file/capture-vision-template.html)
+For more details, please refer to [introduction of the capture vision template]({{ site.dcv_parameters }}file/capture-vision-template.html)
 
 ### How to Apply Parameters
 
