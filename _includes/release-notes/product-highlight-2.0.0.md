@@ -1,3 +1,4 @@
+
 * The `DynamsoftCodeParser` SDK has been revamped to integrate with the newly established [`DynamsoftCaptureVision (DCV)`](https://www.dynamsoft.com/capture-vision/docs/core/architecture/index.html) architecture.
 * The following editions are available:
   * Server
@@ -16,3 +17,4 @@
   * [AAMVA_DL_ID_WITH_MAG_STRIPE]({{ site.code_types }}aamva-dl-id.html)
   * [AADHAAR]({{ site.code_types }}aadhaar.html)
   * [SOUTH_AFRICA_DL]({{ site.code_types }}za-dl.html)
+
