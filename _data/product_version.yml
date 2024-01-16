@@ -4,5 +4,6 @@ version_info_list_desktop:
   - value: latest version
   - value: 2.x
     child:
+      - 2.0.20
       - 2.0.10
       - 2.0.0
