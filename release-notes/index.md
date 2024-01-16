@@ -11,6 +11,18 @@ breadcrumbText: Release Note
 
 # Release Notes
 
+## 2.2.0
+
+ > First released: 01-16-2024
+
+### Highlights
+
+This is a compatibility update that is designed to work with the version 2.2 of `DynamsoftCaptureVision (DCV)` architecture.
+
+| Versions | Available Editions                                                                      |
+| -------- | --------------------------------------------------------------------------------------- |
+| 2.2.0   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.2.0#220-01162024){:target="_blank"} |
+
 ## 2.0.0
 
  > First released: 07-04-2023
