@@ -32,6 +32,9 @@ The following shows how to set the license in the code.
 <div class="sample-code-prefix template2"></div>
    >- C++
    >- JavaScript
+   >- Android
+   >- Objective-C
+   >- Swift
    >
 >
 ```cpp
@@ -44,6 +47,33 @@ The following shows how to set the license in the code.
 ```
 >
 ```javascript
-Dynamsoft.DCP.CodeParser.license = "YOUR-LICENSE-KEY";
-let parser = await Dynamsoft.DCP.CodeParser.createInstance();
+Dynamsoft.License.LicenseManager.initLicense("YOUR-LICENSE-KEY");
+```
+>
+```java
+LicenseManager.initLicense("YOUR-LICENSE-KEY", this, (isSuccess, error) -> {
+   if (!isSuccess) {
+          error.printStackTrace();
+   }
+});
+```
+>
+```objc
+[DSLicenseManager initLicense:@"YOUR-LICENSE-KEY" verificationDelegate:self];
+- (void)onLicenseVerified:(BOOL)isSuccess error:(nullable NSError *)error {
+    if (!isSuccess && error != nil) {
+        NSLog(@"error: %@", error);
+    }
+}
+```
+>
+```swift
+LicenseManager.initLicense("YOUR-LICENSE-KEY", verificationDelegate: self)
+func onLicenseVerified(_ isSuccess: Bool, error: Error?) {
+   if !isSuccess {
+          if let error = error {
+             print("\(error.localizedDescription)")
+          }
+   }
+}
 ```
