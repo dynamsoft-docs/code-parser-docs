@@ -21,7 +21,7 @@ This is a compatibility update that is designed to work with the version 2.2 of 
 
 | Versions | Available Editions                                                                      |
 | -------- | --------------------------------------------------------------------------------------- |
-| 2.2.10   | [C++]({{ site.cpp_release_notes}}cpp-2.html#2210-02292024){:target="_blank"} |
+| 2.2.10   | [C++]({{ site.cpp_release_notes}}cpp-2.html#2210-03012024){:target="_blank"} |
 | 2.2.0   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.2.0#220-01162024){:target="_blank"} |
 
 ## 2.0.0
