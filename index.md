@@ -14,6 +14,9 @@ DEVELOPMENT
 <hr>
 
 * [Web (Client Side)]({{ site.js }})
+* Mobile
+  * [Android]({{site.dcp_android}}){:target="_blank"}
+  * [iOS]({{site.dcp_ios}}){:target="_blank"}
 * Server / Desktop
   * [C++]({{ site.cpp }})
 
