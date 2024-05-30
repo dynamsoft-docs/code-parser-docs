@@ -21,6 +21,7 @@ This is a compatibility update that is designed to work with the version 2.2 of 
 
 | Versions | Available Editions                                                                      |
 | -------- | --------------------------------------------------------------------------------------- |
+| 2.2.20   | [.NET]({{ site.dcp_dotnet }}release-notes/dotnet-2.html#2220-05302024){:target="_blank"} |
 | 2.2.11   | [Android]({{ site.dcp_android }}release-notes/android-2.html#2211-05152024){:target="_blank"} |
 | 2.2.10   | [C++]({{ site.cpp_release_notes}}cpp-2.html#2210-03012024){:target="_blank"} / [Android]({{ site.dcp_android }}release-notes/android-2.html#2210-04162024){:target="_blank"} / [iOS]({{ site.dcp_ios }}release-notes/ios-2.html#2210-04162024){:target="_blank"} |
 | 2.2.0   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.2.0#220-01162024){:target="_blank"} |

@@ -9,6 +9,8 @@ introduction: /code-parser/docs/core/introduction/
 cpp: /code-parser/docs/server/programming/cplusplus/
 cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
 
+dcp_dotnet: /code-parser/docs/server/programming/dotnet/
+
 
 js: /code-parser/docs/web/programming/javascript/
 js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
