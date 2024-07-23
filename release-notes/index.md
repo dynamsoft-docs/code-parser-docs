@@ -11,6 +11,18 @@ breadcrumbText: Release Note
 
 # Release Notes
 
+## 2.4
+
+ > First released: 07-23-2024
+
+### Highlights
+
+This is a compatibility update that is designed to work with the version 2.4 of `DynamsoftCaptureVision (DCV)` architecture.
+
+| Versions | Available Editions                                                                      |
+| -------- | --------------------------------------------------------------------------------------- |
+| 2.4.10   | [C++]({{ site.dcp_cpp_release_notes}}cpp-2.html#2410-07232024){:target="_blank"} |
+
 ## 2.2.0
 
  > First released: 01-16-2024
@@ -23,8 +35,8 @@ This is a compatibility update that is designed to work with the version 2.2 of 
 | -------- | --------------------------------------------------------------------------------------- |
 | 2.2.20   | [.NET]({{ site.dcp_dotnet }}release-notes/dotnet-2.html#2220-05302024){:target="_blank"} |
 | 2.2.11   | [Android]({{ site.dcp_android }}release-notes/android-2.html#2211-05152024){:target="_blank"} |
-| 2.2.10   | [C++]({{ site.cpp_release_notes}}cpp-2.html#2210-03012024){:target="_blank"} / [Android]({{ site.dcp_android }}release-notes/android-2.html#2210-04162024){:target="_blank"} / [iOS]({{ site.dcp_ios }}release-notes/ios-2.html#2210-04162024){:target="_blank"} |
-| 2.2.0   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.2.0#220-01162024){:target="_blank"} |
+| 2.2.10   | [C++]({{ site.dcp_cpp_release_notes}}cpp-2.html#2210-03012024){:target="_blank"} / [Android]({{ site.dcp_android }}release-notes/android-2.html#2210-04162024){:target="_blank"} / [iOS]({{ site.dcp_ios }}release-notes/ios-2.html#2210-04162024){:target="_blank"} |
+| 2.2.0   | [C++]({{ site.dcp_cpp_release_notes}}cpp-2.html?ver=2.2.0#220-01162024){:target="_blank"} |
 
 ## 2.0.0
 
@@ -36,9 +48,9 @@ This is a compatibility update that is designed to work with the version 2.2 of 
 
 | Versions | Available Editions                                                                      |
 | -------- | --------------------------------------------------------------------------------------- |
-| 2.0.20   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.20#2020-10262023){:target="_blank"} / [Android]({{ site.dcp_android}}release-notes/android-2.html#2020-12072023){:target="_blank"} / [iOS]({{ site.dcp_ios}}release-notes/ios-2.html#2020-12072023){:target="_blank"} |
-| 2.0.10   | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.10#2010-08082023){:target="_blank"} |
-| 2.0.0    | [C++]({{ site.cpp_release_notes}}cpp-2.html?ver=2.0.0#200-07042023){:target="_blank"}   |
+| 2.0.20   | [C++]({{ site.dcp_cpp_release_notes}}cpp-2.html?ver=2.0.20#2020-10262023){:target="_blank"} / [Android]({{ site.dcp_android}}release-notes/android-2.html#2020-12072023){:target="_blank"} / [iOS]({{ site.dcp_ios}}release-notes/ios-2.html#2020-12072023){:target="_blank"} |
+| 2.0.10   | [C++]({{ site.dcp_cpp_release_notes}}cpp-2.html?ver=2.0.10#2010-08082023){:target="_blank"} |
+| 2.0.0    | [C++]({{ site.dcp_cpp_release_notes}}cpp-2.html?ver=2.0.0#200-07042023){:target="_blank"}   |
 
 ## 1.1.0
 
@@ -58,7 +70,7 @@ Dynamsoft Code Parser version 1.1.0 supports parsing two new types:
 
 | Versions | Available Editions                                                  |
 | -------- | ------------------------------------------------------------------- |
-| 1.1.0    | [JavaScript]({{ site.js_release_notes}}js-1.html){:target="_blank"} |
+| 1.1.0    | [JavaScript]({{ site.dcp_js_release_notes}}js-1.html){:target="_blank"} |
 
 ## 1.0.2
 
@@ -76,4 +88,4 @@ Dynamsoft Code Parser version 1.0.2 supports parsing code from driver license an
 
 | Versions | Available Editions                                                  |
 | -------- | ------------------------------------------------------------------- |
-| 1.0.2    | [JavaScript]({{ site.js_release_notes}}js-1.html){:target="_blank"} |
+| 1.0.2    | [JavaScript]({{ site.dcp_js_release_notes}}js-1.html){:target="_blank"} |

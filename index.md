@@ -13,12 +13,12 @@ description: Dynamsoft Code Parser SDK Documentation Homepage
 DEVELOPMENT
 <hr>
 
-* [Web (Client Side)]({{ site.js }})
+* [Web (Client Side)]({{ site.dcp_js }})
 * Mobile
   * [Android]({{site.dcp_android}}){:target="_blank"}
   * [iOS]({{site.dcp_ios}}){:target="_blank"}
 * Server / Desktop
-  * [C++]({{ site.cpp }})
+  * [C++]({{ site.dcp_cpp }})
   * [.NET]({{ site.dcp_dotnet }})
 
 <hr>

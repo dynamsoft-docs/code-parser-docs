@@ -61,5 +61,5 @@ As of current version, DCP is available for web and server applications as "DCP 
 
 Learn how to use DCP to add code parsing capabilities to your application:
 
-* [JavaScript (Web)]({{site.js}})
-* [C++ (Server)]({{site.cpp}})
+* [JavaScript (Web)]({{site.dcp_js}})
+* [C++ (Server)]({{site.dcp_cpp}})

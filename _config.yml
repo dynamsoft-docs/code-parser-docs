@@ -6,14 +6,14 @@ docHomePage: /code-parser/docs/core/introduction/
 
 introduction: /code-parser/docs/core/introduction/
 
-cpp: /code-parser/docs/server/programming/cplusplus/
-cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
+dcp_cpp: /code-parser/docs/server/programming/cplusplus/
+dcp_cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
 
 dcp_dotnet: /code-parser/docs/server/programming/dotnet/
 
 
-js: /code-parser/docs/web/programming/javascript/
-js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
+dcp_js: /code-parser/docs/web/programming/javascript/
+dcp_js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
 
 dcp_android: /code-parser/docs/mobile/programming/android/
 dcp_ios: /code-parser/docs/mobile/programming/ios/
