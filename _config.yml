@@ -1,42 +1,42 @@
 repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs/blob/main
 repository: dynamsoft-docs/code-parser-docs
-docFullPath: https://www.dynamsoft.com/code-parser/docs/core
-firstLevelUrl: /code-parser/docs/core/
-docHomePage: /code-parser/docs/core/introduction/
+docFullPath: https://www.dynamsoft.com/code-parser/docs-archive/core
+firstLevelUrl: /code-parser/docs-archive/core/
+docHomePage: /code-parser/docs-archive/core/introduction/
 
-introduction: /code-parser/docs/core/introduction/
+introduction: /code-parser/docs-archive/core/introduction/
 
-dcp_cpp: /code-parser/docs/server/programming/cplusplus/
-dcp_cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
+dcp_cpp: /code-parser/docs-archive/server/programming/cplusplus/
+dcp_cpp_release_notes: /code-parser/docs-archive/server/programming/cplusplus/release-notes/
 
-dcp_dotnet: /code-parser/docs/server/programming/dotnet/
-
-
-dcp_js: /code-parser/docs/web/programming/javascript/
-dcp_js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
-
-dcp_android: /code-parser/docs/mobile/programming/android/
-dcp_ios: /code-parser/docs/mobile/programming/ios/
-
-release_notes: /code-parser/docs/core/release-notes/
-code_types: /code-parser/docs/core/code-types/
-license_activation: /code-parser/docs/core/license-activation/
-
-dcp_parameters: /code-parser/docs/core/parameters/
-dcp_parameters_reference: /code-parser/docs/core/parameters/reference/
-
-dcv_parameters: /capture-vision/docs/core/parameters/
-dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
+dcp_dotnet: /code-parser/docs-archive/server/programming/dotnet/
 
 
-assets: /code-parser/docs/core/assets/
-edit_icon: /code-parser/docs/core/assets/img-icon/edit-icon.png
-smile_icon: /code-parser/docs/core/assets/img-icon/icon-smile.png
-sad_icon: /code-parser/docs/core/assets/img-icon/icon-sad.png
+dcp_js: /code-parser/docs-archive/web/programming/javascript/
+dcp_js_release_notes: /code-parser/docs-archive/web/programming/javascript/release-notes/
+
+dcp_android: /code-parser/docs-archive/mobile/programming/android/
+dcp_ios: /code-parser/docs-archive/mobile/programming/ios/
+
+release_notes: /code-parser/docs-archive/core/release-notes/
+code_types: /code-parser/docs-archive/core/code-types/
+license_activation: /code-parser/docs-archive/core/license-activation/
+
+dcp_parameters: /code-parser/docs-archive/core/parameters/
+dcp_parameters_reference: /code-parser/docs-archive/core/parameters/reference/
+
+dcv_parameters: /capture-vision/docs-archive/core/parameters/
+dcv_parameters_reference: /capture-vision/docs-archive/core/parameters/reference/
+
+
+assets: /code-parser/docs-archive/core/assets/
+edit_icon: /code-parser/docs-archive/core/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs-archive/core/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs-archive/core/assets/img-icon/icon-sad.png
 
 useVersionTree: true
 
-baseurl: "/code-parser/docs/core"
+baseurl: "/code-parser/docs-archive/core"
 plugins:
   - jemoji
   - jekyll-sitemap
@@ -60,7 +60,7 @@ defaults:
       path: "" 
     values: 
       docRootName: "Code Parser" 
-      docHomePage: "/code-parser/docs/core/introduction/"
+      docHomePage: "/code-parser/docs-archive/core/introduction/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
