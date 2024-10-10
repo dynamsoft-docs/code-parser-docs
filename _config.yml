@@ -34,7 +34,8 @@ edit_icon: /code-parser/docs/core/assets/img-icon/edit-icon.png
 smile_icon: /code-parser/docs/core/assets/img-icon/icon-smile.png
 sad_icon: /code-parser/docs/core/assets/img-icon/icon-sad.png
 
-useVersionTree: true
+useVersionTree: false
+isDCV: true
 
 baseurl: "/code-parser/docs/core"
 plugins:
