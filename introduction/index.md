@@ -45,21 +45,3 @@ The Vehicle Identification Number (VIN) following ISO 3779 and standard used in 
 
 For further details, take a look at [VIN introduction]({{site.code_types}}vin.html).
 
-## Supported Platforms
-
-As of current version, DCP is available for web and server applications as "DCP JavaScript Edition" and "DCP C++ Edition".
-
-| Platforms | Languages |
-|-----------|-----------|
-| Web | JavaScript |
-| Server | C++ |
-| Mobile | Java/Kotlin/Objective-C/Swift |
-
-> Future versions will support more platforms, such as Android/Mobile, etc.
-
-## Next Step
-
-Learn how to use DCP to add code parsing capabilities to your application:
-
-* [JavaScript (Web)]({{site.dcp_js}})
-* [C++ (Server)]({{site.dcp_cpp}})
