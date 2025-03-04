@@ -3,6 +3,8 @@ repository: dynamsoft-docs/code-parser-docs
 docFullPath: https://www.dynamsoft.com/code-parser/docs/core
 firstLevelUrl: /code-parser/docs/core/
 docHomePage: /code-parser/docs/core/introduction/
+needSearchIndex: true
+searchNeedFilter: true
 
 introduction: /code-parser/docs/core/introduction/
 

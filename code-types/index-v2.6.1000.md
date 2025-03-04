@@ -15,4 +15,3 @@ noTitleIndex: true
 * [South Africa Driver License](za-dl.md)
 * [Aadhaar](aadhaar.md)
 * [Vehicle Identification Number](vin.md)
-* [GS1 Application Identifiers (AI)](gs1-ai.md)
