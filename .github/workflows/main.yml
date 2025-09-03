@@ -31,4 +31,12 @@ jobs:
       doc-repo: code-parser-docs
       doc-url: code-parser/docs/core
     secrets: inherit
+  Build-v2:
+    if: ${{ github.ref == 'refs/heads/v2' }}
+    uses: dynamsoft-docs/Docs-Template-Repo/.github/workflows/called-workflow-build-sync-production.yml@DCV-v2
+    with:
+      doc-repo: code-parser-docs
+      doc-url: code-parser/docs/v2/core
+      doc-branch: v2
+    secrets: inherit
 

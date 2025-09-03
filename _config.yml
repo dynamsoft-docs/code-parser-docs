@@ -1,45 +1,28 @@
-repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs/blob/main
+repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs/blob/v2
 repository: dynamsoft-docs/code-parser-docs
-docFullPath: https://www.dynamsoft.com/code-parser/docs/core
-firstLevelUrl: /code-parser/docs/core/
-docHomePage: /code-parser/docs/core/introduction/
+docFullPath: https://www.dynamsoft.com/code-parser/docs/v2/core
+firstLevelUrl: /code-parser/docs/v2/core/
+docHomePage: /code-parser/docs/v2/core/introduction/
 needSearchIndex: true
 searchNeedFilter: true
 
-introduction: /code-parser/docs/core/introduction/
-
-dcp_cpp: /code-parser/docs/server/programming/cplusplus/
-dcp_cpp_release_notes: /code-parser/docs/server/programming/cplusplus/release-notes/
-
-dcp_dotnet: /code-parser/docs/server/programming/dotnet/
+introduction: /code-parser/docs/v2/core/introduction/
 
 
-dcp_js: /code-parser/docs/web/programming/javascript/
-dcp_js_release_notes: /code-parser/docs/web/programming/javascript/release-notes/
-
-dcp_android: /code-parser/docs/mobile/programming/android/
-dcp_ios: /code-parser/docs/mobile/programming/ios/
-
-release_notes: /code-parser/docs/core/release-notes/
-code_types: /code-parser/docs/core/code-types/
-license_activation: /code-parser/docs/core/license-activation/
-
-dcp_parameters: /code-parser/docs/core/parameters/
-dcp_parameters_reference: /code-parser/docs/core/parameters/reference/
-
-dcv_parameters: /capture-vision/docs/core/parameters/
-dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
+code_types: /code-parser/docs/v2/core/code-types/
 
 
-assets: /code-parser/docs/core/assets/
-edit_icon: /code-parser/docs/core/assets/img-icon/edit-icon.png
-smile_icon: /code-parser/docs/core/assets/img-icon/icon-smile.png
-sad_icon: /code-parser/docs/core/assets/img-icon/icon-sad.png
+
+assets: /code-parser/docs/v2/core/assets/
+edit_icon: /code-parser/docs/v2/core/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs/v2/core/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs/v2/core/assets/img-icon/icon-sad.png
 
 useVersionTree: false
 isDCV: true
+useJSVersionV3: true
 
-baseurl: "/code-parser/docs/core"
+baseurl: "/code-parser/docs/v2/core"
 plugins:
   - jemoji
   - jekyll-sitemap
@@ -63,7 +46,7 @@ defaults:
       path: "" 
     values: 
       docRootName: "Code Parser" 
-      docHomePage: "/code-parser/docs/core/introduction/"
+      docHomePage: "/code-parser/docs/v2/core/introduction/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
