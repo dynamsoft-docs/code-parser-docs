@@ -22,10 +22,6 @@ dcp_ios: /code-parser/docs/mobile/programming/ios/
 
 release_notes: /code-parser/docs/core/release-notes/
 code_types: /code-parser/docs/core/code-types/
-license_activation: /code-parser/docs/core/license-activation/
-
-dcp_parameters: /code-parser/docs/core/parameters/
-dcp_parameters_reference: /code-parser/docs/core/parameters/reference/
 
 dcv_parameters: /capture-vision/docs/core/parameters/
 dcv_parameters_reference: /capture-vision/docs/core/parameters/reference/
@@ -38,6 +34,7 @@ sad_icon: /code-parser/docs/core/assets/img-icon/icon-sad.png
 
 useVersionTree: false
 isDCV: true
+useJSVersionV3: true
 
 baseurl: "/code-parser/docs/core"
 plugins:
