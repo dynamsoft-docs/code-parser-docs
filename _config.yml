@@ -1,28 +1,28 @@
 repositoryUrl: https://github.com/dynamsoft-docs/code-parser-docs/blob/v2
 repository: dynamsoft-docs/code-parser-docs
-docFullPath: https://www.dynamsoft.com/code-parser/docs/v2/core
-firstLevelUrl: /code-parser/docs/v2/core/
-docHomePage: /code-parser/docs/v2/core/introduction/
+docFullPath: https://www.dynamsoft.com/code-parser/docs-v2/core
+firstLevelUrl: /code-parser/docs-v2/core/
+docHomePage: /code-parser/docs-v2/core/introduction/
 needSearchIndex: true
 searchNeedFilter: true
 
-introduction: /code-parser/docs/v2/core/introduction/
+introduction: /code-parser/docs-v2/core/introduction/
 
 
-code_types: /code-parser/docs/v2/core/code-types/
+code_types: /code-parser/docs-v2/core/code-types/
 
 
 
-assets: /code-parser/docs/v2/core/assets/
-edit_icon: /code-parser/docs/v2/core/assets/img-icon/edit-icon.png
-smile_icon: /code-parser/docs/v2/core/assets/img-icon/icon-smile.png
-sad_icon: /code-parser/docs/v2/core/assets/img-icon/icon-sad.png
+assets: /code-parser/docs-v2/core/assets/
+edit_icon: /code-parser/docs-v2/core/assets/img-icon/edit-icon.png
+smile_icon: /code-parser/docs-v2/core/assets/img-icon/icon-smile.png
+sad_icon: /code-parser/docs-v2/core/assets/img-icon/icon-sad.png
 
 useVersionTree: false
 isDCV: true
 useJSVersionV3: true
 
-baseurl: "/code-parser/docs/v2/core"
+baseurl: "/code-parser/docs-v2/core"
 plugins:
   - jemoji
   - jekyll-sitemap
@@ -46,7 +46,7 @@ defaults:
       path: "" 
     values: 
       docRootName: "Code Parser" 
-      docHomePage: "/code-parser/docs/v2/core/introduction/"
+      docHomePage: "/code-parser/docs-v2/core/introduction/"
   - scope:
       path: "Hide_Tree_Page.html"
     values:
