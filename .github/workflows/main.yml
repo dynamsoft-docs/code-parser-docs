@@ -36,7 +36,7 @@ jobs:
     uses: dynamsoft-docs/Docs-Template-Repo/.github/workflows/called-workflow-build-sync-production.yml@DCV-v2
     with:
       doc-repo: code-parser-docs
-      doc-url: code-parser/docs/v2/core
+      doc-url: code-parser/docs-v2/core
       doc-branch: v2
     secrets: inherit
 
