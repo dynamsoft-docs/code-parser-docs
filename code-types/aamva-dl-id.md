@@ -31,11 +31,11 @@ The exposed fields for each code type is defined as below:
 | AAMVAVersionNumber | AAMVA Version Number |
 | issuerIdentificationNumber | Issuer Identification Number (IIN) |
 | jurisdictionVersionNumber | Jurisdiction Version Number |
-| fullName | Full name of cardholder <br>Present in version 1 (2000) |
+| fullName | Full name of cardholder <br>Present in version 01 (2000) |
 | lastName | Last name of cardholder |
-| givenName | Given name of cardholder |
-| firstName | First name of cardholder |
-| middleName | Middle name of cardholder |
+| givenName | Given name of cardholder <br>Present in version 02 (2003) and version 03 (2005) |
+| firstName | First name of cardholder <br>Present in versions other than 02 (2003) and 03 (2005) |
+| middleName | Middle name of cardholder <br>Present in versions other than 02 (2003) and 03 (2005) |
 | suffix | Name suffix |
 | prefix | Name prefix |
 | street_1 | Street portion of the cardholder address |
@@ -43,16 +43,16 @@ The exposed fields for each code type is defined as below:
 | city | City portion of the cardholder address |
 | jurisdictionCode | State portion of the cardholder address |
 | postalCode | Postal code portion of the cardholder address |
-| residenceStreet_1 | Driver Residence Street Address 1 <br>Present in version 1 (2000) |
-| residenceStreet_2 | Driver Residence Street Address 2 <br>Present in version 1 (2000) |
-| residenceCity | Driver Residence City <br>Present in version 1 (2000) |
-| residenceJurisdictionCode |  Driver Residence Jurisdiction Code <br>Present in version 1 (2000) |
-| residencePostalCode | Driver Residence Postal Code <br>Present in version 1 (2000) |
+| residenceStreet_1 | Driver Residence Street Address 1 <br>Present in version 01 (2000) |
+| residenceStreet_2 | Driver Residence Street Address 2 <br>Present in version 01 (2000) |
+| residenceCity | Driver Residence City <br>Present in version 01 (2000) |
+| residenceJurisdictionCode |  Driver Residence Jurisdiction Code <br>Present in version 01 (2000) |
+| residencePostalCode | Driver Residence Postal Code <br>Present in version 01 (2000) |
 | licenseNumber | License/ID Number |
 | vehicleClass | Jurisdiction-specific vehicle class / Driver License Classification Code |
 | restrictionCode | Jurisdiction-specific codes that represent restrictions to driving privileges |
 | endorsementsCode | Jurisdiction-specific codes that represent additional privileges granted to the cardholder beyond the vehicle class |
-| heightInCentimeters | Height in centimeters <br>Present in version 1 (2000) |
+| heightInCentimeters | Height in centimeters <br>Present in version 01 (2000) |
 | height | Height of cardholder |
 | weightInKilograms | weight in kilograms |
 | weightInPounds | weight in pounds |
